@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVK Manifesto 2026 | தமிழக வெற்றிக் கழகம் தேர்தல் அறிக்கை</title>
+    <meta name="description" content="Tamilaga Vettri Kazhagam (TVK) Election Manifesto 2026 - வெற்றித் தமிழ்நாடு நம் உறுதிமொழி">
+    <meta property="og:title" content="TVK Manifesto 2026 | தமிழக வெற்றிக் கழகம்">
+    <meta property="og:description" content="தமிழக வெற்றிக் கழகம் தேர்தல் அறிக்கை 2026 - வெற்றித் தமிழ்நாடு நம் உறுதிமொழி">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300;400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --tvk-red: #B91C1C;
+            --tvk-red-dark: #7F1D1D;
+            --tvk-red-light: #DC2626;
+            --tvk-gold: #F59E0B;
+            --tvk-gold-light: #FCD34D;
+            --tvk-gold-dark: #D97706;
+            --bg-cream: #FFFBF0;
+            --bg-warm: #FEF7E7;
+            --text-dark: #1C1917;
+            --text-body: #44403C;
+            --text-muted: #78716C;
+            --section-aram: #B91C1C;
+            --section-porul: #0369A1;
+            --section-inbam: #047857;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', sans-serif;
+            background: var(--bg-cream);
+            color: var(--text-body);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        .tamil-text { font-family: 'Noto Sans Tamil', sans-serif; }
+
+        .nav-bar {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            background: rgba(255,251,240,0.92);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(185,28,28,0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .nav-bar.scrolled { box-shadow: 0 4px 30px rgba(0,0,0,0.08); }
+        .nav-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo {
+            font-weight: 800;
+            font-size: 1.1rem;
+            color: var(--tvk-red);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .nav-logo-icon {
+            width: 36px; height: 36px;
+            background: linear-gradient(135deg, var(--tvk-red), var(--tvk-red-dark));
+            border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            color: white;
+            font-family: 'Noto Sans Tamil', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 900;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-body);
+            font-weight: 500;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+        .nav-link:hover { color: var(--tvk-red); }
+        .lang-toggle {
+            display: flex;
+            background: #f5f5f4;
+            border-radius: 8px;
+            padding: 3px;
+            gap: 2px;
+        }
+        .lang-btn {
+            padding: 5px 14px;
+            border: none;
+            background: none;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-muted);
+        }
+        .lang-btn.active {
+            background: white;
+            color: var(--tvk-red);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-dark);
+        }
+
+        .hero {
+            padding: 8rem 2rem 5rem;
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg-cream) 0%, var(--bg-warm) 100%);
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 50% 0%, rgba(185,28,28,0.04) 0%, transparent 70%);
+        }
+        .hero-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--tvk-red), var(--tvk-red-dark));
+            color: white;
+            padding: 0.4rem 1.25rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        .hero-title {
+            font-family: 'Noto Sans Tamil', 'DM Serif Display', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            color: var(--text-dark);
+            line-height: 1.3;
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+            position: relative;
+        }
+        .hero-subtitle {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text-muted);
+            max-width: 550px;
+            margin: 0 auto 3rem;
+            position: relative;
+        }
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        .hero-stat-num {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--tvk-red);
+        }
+        .hero-stat-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .toc-section {
+            padding: 4rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .toc-title {
+            font-family: 'Noto Sans Tamil', 'DM Serif Display', serif;
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 0.75rem;
+        }
+        .toc-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.85rem 1.25rem;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-body);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            background: white;
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .toc-item:hover {
+            transform: translateX(4px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        }
+        .toc-dot {
+            width: 10px; height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .toc-dot.aram { background: var(--section-aram); }
+        .toc-dot.porul { background: var(--section-porul); }
+        .toc-dot.inbam { background: var(--section-inbam); }
+
+        [data-lang="en"] { display: none; }
+        body.en [data-lang="en"] { display: block; }
+        body.en [data-lang="ta"] { display: none; }
+        [data-lang-inline="en"] { display: none; }
+        body.en [data-lang-inline="en"] { display: inline; }
+        body.en [data-lang-inline="ta"] { display: none; }
+
+        .theme-banner {
+            padding: 3rem 2rem;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .theme-banner.aram { background: linear-gradient(135deg, #991B1B, #7F1D1D); }
+        .theme-banner.porul { background: linear-gradient(135deg, #075985, #0C4A6E); }
+        .theme-banner.inbam { background: linear-gradient(135deg, #065F46, #064E3B); }
+        .theme-kural {
+            font-family: 'Noto Sans Tamil', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+        .theme-name {
+            font-family: 'Noto Sans Tamil', 'DM Serif Display', serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 900;
+        }
+        .theme-subtitle {
+            font-size: 0.95rem;
+            opacity: 0.8;
+            margin-top: 0.5rem;
+        }
+
+        .chapter-section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .chapter-header {
+            margin-bottom: 2.5rem;
+        }
+        .chapter-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px; height: 40px;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 1rem;
+            color: white;
+            margin-bottom: 0.75rem;
+        }
+        .chapter-num.aram { background: var(--section-aram); }
+        .chapter-num.porul { background: var(--section-porul); }
+        .chapter-num.inbam { background: var(--section-inbam); }
+        .chapter-title {
+            font-family: 'Noto Sans Tamil', 'DM Serif Display', serif;
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 800;
+            color: var(--text-dark);
+            line-height: 1.3;
+        }
+        .chapter-desc {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+
+        .sub-section-title {
+            font-family: 'Noto Sans Tamil', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin: 2.5rem 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(0,0,0,0.06);
+        }
+
+        .policy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.25rem;
+        }
+        .policy-card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.75rem;
+            border: 1px solid rgba(0,0,0,0.04);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+        .policy-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+        }
+        .policy-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px; height: 28px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            color: white;
+            margin-bottom: 0.75rem;
+        }
+        .policy-num.aram { background: var(--section-aram); }
+        .policy-num.porul { background: var(--section-porul); }
+        .policy-num.inbam { background: var(--section-inbam); }
+        .policy-title {
+            font-family: 'Noto Sans Tamil', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+        .policy-text {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+        .policy-text ul {
+            padding-left: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .policy-text li {
+            margin-bottom: 0.35rem;
+        }
+
+        .section-sep {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(0,0,0,0.08), transparent);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #1C1917, #292524);
+            color: rgba(255,255,255,0.7);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .footer-logo {
+            font-family: 'Noto Sans Tamil', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+        .footer-tagline {
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            color: var(--tvk-gold);
+        }
+        .footer-text {
+            font-size: 0.85rem;
+            max-width: 500px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        .footer-cta {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .footer-cta-text {
+            font-family: 'Noto Sans Tamil', 'DM Serif Display', serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--tvk-gold);
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .appeal-section {
+            padding: 5rem 2rem;
+            text-align: center;
+            background: var(--bg-warm);
+        }
+        .appeal-content {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .appeal-quote {
+            font-family: 'Noto Sans Tamil', 'DM Serif Display', serif;
+            font-size: clamp(1.5rem, 3vw, 2.25rem);
+            font-weight: 700;
+            color: var(--text-dark);
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+        .appeal-author {
+            font-weight: 700;
+            color: var(--tvk-red);
+            font-size: 1.1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 48px; height: 48px;
+            background: var(--tvk-red);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(185,28,28,0.3);
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(185,28,28,0.4);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .mobile-menu-btn { display: block; }
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0; right: 0;
+                background: rgba(255,251,240,0.98);
+                backdrop-filter: blur(20px);
+                padding: 1rem;
+                border-bottom: 1px solid rgba(0,0,0,0.05);
+            }
+            .policy-grid { grid-template-columns: 1fr; }
+            .hero-stats { gap: 1.5rem; }
+            .hero { padding: 7rem 1.5rem 4rem; }
+            .chapter-section { padding: 3rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav-bar" id="navbar">
+    <div class="nav-inner">
+        <div class="nav-logo">
+            <span>
+                <span data-lang-inline="ta">தமிழக வெற்றிக் கழகம்</span>
+                <span data-lang-inline="en">TVK</span>
+            </span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#aram" class="nav-link">
+                <span data-lang-inline="ta">அறம்</span>
+                <span data-lang-inline="en">Virtue</span>
+            </a>
+            <a href="#porul" class="nav-link">
+                <span data-lang-inline="ta">பொருள்</span>
+                <span data-lang-inline="en">Prosperity</span>
+            </a>
+            <a href="#inbam" class="nav-link">
+                <span data-lang-inline="ta">இன்பம்</span>
+                <span data-lang-inline="en">Happiness</span>
+            </a>
+            <div class="lang-toggle">
+                <button class="lang-btn active" id="btnTamil" onclick="setLang('ta')">தமிழ்</button>
+                <button class="lang-btn" id="btnEnglish" onclick="setLang('en')">English</button>
+            </div>
+        </div>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="hero">
+    <div class="hero-badge">
+        <span data-lang-inline="ta">தேர்தல் அறிக்கை 2026</span>
+        <span data-lang-inline="en">Election Manifesto 2026</span>
+    </div>
+    <h1 class="hero-title">
+        <span data-lang="ta">வெற்றித் தமிழ்நாடு<br>நம் உறுதிமொழி</span>
+        <span data-lang="en">Victorious Tamil Nadu<br>Our Promise</span>
+    </h1>
+    <p class="hero-subtitle">
+        <span data-lang="ta">திருக்குறளின் அறம், பொருள், இன்பம் என்ற முப்பெரும் கருத்தாக்கத்தின் அடிப்படையில் தமிழகத்தின் எதிர்காலத்துக்கான 10 அத்தியாயங்கள், 250+ கொள்கைகள்</span>
+        <span data-lang="en">10 chapters, 250+ policies built on Thirukkural's three pillars — Aram (Virtue), Porul (Prosperity), Inbam (Happiness)</span>
+    </p>
+    <div class="hero-stats">
+        <div><div class="hero-stat-num">10</div><div class="hero-stat-label"><span data-lang-inline="ta">அத்தியாயங்கள்</span><span data-lang-inline="en">Chapters</span></div></div>
+        <div><div class="hero-stat-num">250+</div><div class="hero-stat-label"><span data-lang-inline="ta">கொள்கைகள்</span><span data-lang-inline="en">Policies</span></div></div>
+        <div><div class="hero-stat-num">3</div><div class="hero-stat-label"><span data-lang-inline="ta">குறள் தூண்கள்</span><span data-lang-inline="en">Kural Pillars</span></div></div>
+    </div>
+</section>
+
+<!-- TABLE OF CONTENTS -->
+<section class="toc-section fade-in">
+    <h2 class="toc-title">
+        <span data-lang="ta">உள்ளடக்கம்</span>
+        <span data-lang="en">Table of Contents</span>
+    </h2>
+    <div class="toc-grid">
+        <a href="#ch1" class="toc-item"><span class="toc-dot aram"></span><span data-lang-inline="ta">01 — தமிழ் அடையாளம்</span><span data-lang-inline="en">01 — Tamil Identity</span></a>
+        <a href="#ch2" class="toc-item"><span class="toc-dot aram"></span><span data-lang-inline="ta">02 — கண்ணியமான வாழ்க்கை</span><span data-lang-inline="en">02 — Dignified Life</span></a>
+        <a href="#ch3" class="toc-item"><span class="toc-dot aram"></span><span data-lang-inline="ta">03 — பெண்கள்</span><span data-lang-inline="en">03 — Women Empowerment</span></a>
+        <a href="#ch4" class="toc-item"><span class="toc-dot aram"></span><span data-lang-inline="ta">04 — இளைஞர்கள்</span><span data-lang-inline="en">04 — Youth</span></a>
+        <a href="#ch5" class="toc-item"><span class="toc-dot porul"></span><span data-lang-inline="ta">05 — விவசாயம்</span><span data-lang-inline="en">05 — Agriculture</span></a>
+        <a href="#ch6" class="toc-item"><span class="toc-dot porul"></span><span data-lang-inline="ta">06 — கல்வி</span><span data-lang-inline="en">06 — Education</span></a>
+        <a href="#ch7" class="toc-item"><span class="toc-dot porul"></span><span data-lang-inline="ta">07 — வெற்றித் தமிழ்நாடு</span><span data-lang-inline="en">07 — Prosperous Tamil Nadu</span></a>
+        <a href="#ch8" class="toc-item"><span class="toc-dot inbam"></span><span data-lang-inline="ta">08 — மருத்துவம் & சுற்றுச்சூழல்</span><span data-lang-inline="en">08 — Healthcare & Environment</span></a>
+        <a href="#ch9" class="toc-item"><span class="toc-dot inbam"></span><span data-lang-inline="ta">09 — உலகத்தரமான கட்டமைப்பு</span><span data-lang-inline="en">09 — World-Class Infrastructure</span></a>
+        <a href="#ch10" class="toc-item"><span class="toc-dot inbam"></span><span data-lang-inline="ta">10 — மக்கள் அரசு</span><span data-lang-inline="en">10 — People's Governance</span></a>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- ============================= -->
+<!-- ARAM (அறம்) — VIRTUE -->
+<!-- ============================= -->
+<div class="theme-banner aram" id="aram">
+    <div class="theme-kural">
+        <span data-lang="ta">அறத்துப்பால்</span>
+        <span data-lang="en">The Book of Virtue</span>
+    </div>
+    <div class="theme-name">
+        <span data-lang="ta">அறம்</span>
+        <span data-lang="en">Aram — Virtue</span>
+    </div>
+    <div class="theme-subtitle">
+        <span data-lang="ta">அத்தியாயங்கள் 01 — 04</span>
+        <span data-lang="en">Chapters 01 — 04</span>
+    </div>
+</div>
+
+<!-- CHAPTER 1: TAMIL IDENTITY -->
+<section class="chapter-section fade-in" id="ch1">
+    <div class="chapter-header">
+        <div class="chapter-num aram">01</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">தமிழ் அடையாளம்</span>
+            <span data-lang="en">Tamil Identity</span>
+        </h2>
+        <p class="chapter-desc">
+            <span data-lang="ta">தமிழ் மொழி, கலாசாரம், வரலாறு ஆகியவற்றைப் பாதுகாத்து மேம்படுத்துதல்</span>
+            <span data-lang="en">Preserving and promoting Tamil language, culture, and heritage</span>
+        </p>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">A. தமிழ் மொழி</span>
+        <span data-lang="en">A. Tamil Language</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num aram">1</div>
+            <div class="policy-title"><span data-lang="ta">ஆட்சி மொழிச் சட்டம் — தமிழ் மட்டுமே ஆட்சி மொழி</span><span data-lang="en">Official Language Act — Tamil as Sole Official Language</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழகத்தில் அரசின் அனைத்துப் பணிகளிலும் தமிழ் மட்டுமே ஆட்சிமொழியாக இருக்கும். தமிழ்நாடு ஆட்சிமொழிச் சட்டம் கொண்டு வரப்படும். நீதிமன்றங்கள், தொழில்நுட்ப மற்றும் மருத்துவக் கல்வி உட்பட அனைத்துத் துறைகளிலும் தமிழே பயன்படுத்தப்படும்.</span><span data-lang="en">Tamil will be the sole official language in all government operations. A Tamil Nadu Official Language Act will be enacted. Tamil will be used in courts, technical and medical education, and all other departments.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">2</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ் வளர்ச்சிக்காக ஆண்டுக்கு ரூ.1,000 கோடி நிதி</span><span data-lang="en">Rs. 1,000 Crore Annual Fund for Tamil Development</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழ் மொழி வளர்ச்சி, ஆராய்ச்சி, இலக்கிய மேம்பாடு, பண்டைய நூல்கள் பாதுகாப்பு ஆகியவற்றுக்காக ஆண்டுக்கு ரூ.1,000 கோடி நிதி ஒதுக்கப்படும்.</span><span data-lang="en">Rs. 1,000 crore will be allocated annually for Tamil language development, research, literary promotion, and preservation of ancient texts.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">3</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ்மொழிக் கல்வி: அரசுப் பள்ளிகளில் 1 முதல் 5 வரை தமிழ்வழிக் கல்வி கட்டாயம்</span><span data-lang="en">Tamil Medium Education: Mandatory Tamil Medium in Govt Schools (Grades 1-5)</span></div>
+            <div class="policy-text"><span data-lang="ta">அரசுப் பள்ளிகளில் 1-ம் வகுப்பு முதல் 5-ம் வகுப்பு வரை தமிழ்வழிக் கல்வி கட்டாயமாக்கப்படும். 6-ம் வகுப்பு முதல் ஆங்கிலம் ஒரு மொழியாகக் கற்றுக்கொடுக்கப்படும். தனியார் பள்ளிகளிலும் தமிழ் கட்டாய பாடமாக இருக்கும்.</span><span data-lang="en">Tamil medium education will be mandatory in government schools from grades 1-5. English will be taught as a language from grade 6. Tamil will be a compulsory subject in private schools too.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">4</div>
+            <div class="policy-title"><span data-lang="ta">கடைகள் / நிறுவனப் பெயர்ப் பலகைகள் தமிழில் கட்டாயம்</span><span data-lang="en">Mandatory Tamil Signboards for Shops & Establishments</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்துக் கடைகள் மற்றும் நிறுவனங்களின் பெயர்ப் பலகைகளில் தமிழ் கட்டாயமாக இடம்பெறும். தமிழ் எழுத்துகள் மற்ற மொழிகளைவிட பெரியதாக இருக்க வேண்டும் என்ற விதி கொண்டுவரப்படும்.</span><span data-lang="en">Tamil will be mandatory on all shop and establishment signboards. Tamil lettering must be larger than other languages.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">5</div>
+            <div class="policy-title"><span data-lang="ta">AI தமிழ்: செயற்கை நுண்ணறிவில் தமிழை உலகின் முன்னணி மொழியாக்குவோம்</span><span data-lang="en">AI Tamil: Making Tamil a Leading Language in Artificial Intelligence</span></div>
+            <div class="policy-text"><span data-lang="ta">உலகம் செயற்கை நுண்ணறிவுக்கு மாறிக்கொண்டிருக்கிறது. தமிழ்மொழி இதில் பின்தங்கக் கூடாது. AI-ல் தமிழ் முன்னணி மொழியாவதற்கு ரூ.500 கோடி ஒதுக்கப்படும். தமிழில் AI கருவிகள், மொழிபெயர்ப்பு, குரல் உதவியாளர் ஆகியவை உருவாக்கப்படும்.</span><span data-lang="en">Rs. 500 crore will be allocated to make Tamil a leading language in AI. AI tools, translation engines, and voice assistants in Tamil will be developed.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">B. தமிழ்ப் பண்பாடு</span>
+        <span data-lang="en">B. Tamil Culture</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num aram">1</div>
+            <div class="policy-title"><span data-lang="ta">பிறமொழிப் பெயர்களால் இருக்கும் ஊர்களுக்குத் தமிழ்ப் பெயர் சூட்டுதல்</span><span data-lang="en">Renaming Places with Non-Tamil Names to Tamil Names</span></div>
+            <div class="policy-text"><span data-lang="ta">பிறமொழிப் பெயர்களால் இருக்கும் ஊர்கள், தெருக்கள் ஆகியவற்றுக்கு அவற்றின் வரலாற்றுத் தமிழ்ப் பெயர்களை மீட்டெடுத்து சூட்டப்படும்.</span><span data-lang="en">Towns and streets with non-Tamil names will be renamed with their historical Tamil names.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">2</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ்நாட்டுக் கோட்டைகள், வரலாற்றுச் சின்னங்கள் பாதுகாப்பு</span><span data-lang="en">Protection of Tamil Nadu's Forts & Heritage Monuments</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழ்நாட்டின் கோட்டைகள், வரலாற்றுச் சின்னங்கள் அனைத்தும் மீட்டெடுக்கப்பட்டு பாதுகாக்கப்படும். சுற்றுலா வளர்ச்சியோடு இணைத்து மேம்படுத்தப்படும்.</span><span data-lang="en">All of Tamil Nadu's forts and heritage monuments will be restored and protected. They will be developed alongside tourism.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">3</div>
+            <div class="policy-title"><span data-lang="ta">தமிழர்களின் வரலாற்றை 'தமிழ்நாடு வரலாற்று ஆணையம்' மூலம் ஆவணப்படுத்துதல்</span><span data-lang="en">Documenting Tamil History through Tamil Nadu History Commission</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழர்களின் வரலாறு முறையாக ஆவணப்படுத்தப்படும். 'தமிழ்நாடு வரலாற்று ஆணையம்' உருவாக்கப்பட்டு, தமிழ்நாட்டின் வரலாறு பாடத்திட்டத்தில் சேர்க்கப்படும்.</span><span data-lang="en">Tamil history will be systematically documented. A Tamil Nadu History Commission will be established and Tamil Nadu's history will be included in the curriculum.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">4</div>
+            <div class="policy-title"><span data-lang="ta">கீழடி, அரிக்கமேடு போன்ற அகழ்வாராய்ச்சிகளை தமிழ்நாடு அரசே மேற்கொள்ளும்</span><span data-lang="en">State-Led Archaeological Excavations at Keeladi, Arikamedu</span></div>
+            <div class="policy-text"><span data-lang="ta">கீழடி, அரிக்கமேடு போன்ற முக்கிய தொல்லியல் களங்களில் அகழ்வாராய்ச்சி தமிழ்நாடு அரசே நேரடியாக மேற்கொள்ளும். மத்திய அரசின் தடைகளை எதிர்கொள்ள தமிழ்நாடு தொல்லியல் துறையை வலுப்படுத்தப்படும்.</span><span data-lang="en">The Tamil Nadu government will directly conduct archaeological excavations at key sites like Keeladi and Arikamedu. The state archaeology department will be strengthened.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">5</div>
+            <div class="policy-title"><span data-lang="ta">பாரம்பரியக் கலைகள் (சிலம்பம், ஜல்லிக்கட்டு, கரகாட்டம்) மேம்பாடு</span><span data-lang="en">Promotion of Traditional Arts (Silambam, Jallikattu, Karakattam)</span></div>
+            <div class="policy-text"><span data-lang="ta">சிலம்பம், ஜல்லிக்கட்டு, கரகாட்டம், நாட்டுப்புற கலைகள் ஆகியவை பாதுகாக்கப்பட்டு மேம்படுத்தப்படும். கலைஞர்களுக்கு மாத ஊதியம் வழங்கப்படும்.</span><span data-lang="en">Traditional arts like Silambam, Jallikattu, Karakattam, and folk arts will be preserved and promoted. Artists will receive monthly stipends.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">6</div>
+            <div class="policy-title"><span data-lang="ta">உலகத் தமிழர் உறவு மையம்</span><span data-lang="en">World Tamil Diaspora Relations Centre</span></div>
+            <div class="policy-text"><span data-lang="ta">உலகெங்கும் வாழும் தமிழர்களுடன் தொடர்பை வலுப்படுத்த 'உலகத் தமிழர் உறவு மையம்' சென்னையில் அமைக்கப்படும். வெளிநாட்டுத் தமிழர்களின் முதலீட்டை ஈர்க்கவும், கலாசார பரிமாற்றத்தை மேம்படுத்தவும் இது உதவும்.</span><span data-lang="en">A World Tamil Diaspora Relations Centre will be established in Chennai to strengthen ties with Tamils worldwide, attract diaspora investments, and enhance cultural exchange.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">C. மாநில உரிமைகள்</span>
+        <span data-lang="en">C. State Rights</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num aram">1</div>
+            <div class="policy-title"><span data-lang="ta">மாநில சுயாட்சி: கூட்டாட்சி மேம்பாடு</span><span data-lang="en">State Autonomy: Strengthening Federalism</span></div>
+            <div class="policy-text"><span data-lang="ta">மாநில உரிமைகள் பாதுகாக்கப்படும். கல்வி, சுகாதாரம், விவசாயம் போன்ற மாநிலப் பட்டியலில் உள்ள துறைகளில் மத்திய அரசின் தலையீடு தடுக்கப்படும். கூட்டாட்சி கட்டமைப்பை வலுப்படுத்த நடவடிக்கை எடுக்கப்படும்.</span><span data-lang="en">State rights will be protected. Central government interference in state subjects like education, health, and agriculture will be opposed. Federal structure will be strengthened.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">2</div>
+            <div class="policy-title"><span data-lang="ta">NEET ஒழிப்பு; மாநிலப் பட்டியலில் கல்வி</span><span data-lang="en">Abolition of NEET; Education in State List</span></div>
+            <div class="policy-text"><span data-lang="ta">NEET-ஐ ஒழிக்கவும், கல்வியை மாநிலப் பட்டியலுக்கு மீண்டும் கொண்டுவரவும் சட்டப்பூர்வ நடவடிக்கைகள் எடுக்கப்படும்.</span><span data-lang="en">Legal steps will be taken to abolish NEET and bring education back to the State List.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">3</div>
+            <div class="policy-title"><span data-lang="ta">காவிரி, முல்லைப்பெரியாறு நீர் உரிமைகள்</span><span data-lang="en">Cauvery & Mullaiperiyar Water Rights</span></div>
+            <div class="policy-text"><span data-lang="ta">காவிரி ஆற்று நீர் உரிமை, முல்லைப்பெரியாறு அணை உயர்த்துதல் போன்ற நீர் உரிமைகளை உறுதிப்படுத்த சட்டப்போராட்டம் தொடரப்படும்.</span><span data-lang="en">Legal battles will continue to secure Cauvery river water rights and Mullaiperiyar dam height increase.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">4</div>
+            <div class="policy-title"><span data-lang="ta">ஆளுநர் அதிகாரம் கட்டுப்படுத்தல்</span><span data-lang="en">Limiting Governor's Powers</span></div>
+            <div class="policy-text"><span data-lang="ta">ஆளுநர் பதவியின் அதிகாரங்களை சரியான வரையறைக்குள் கொண்டுவரவும், மாநில அரசின் மசோதாக்களை காலதாமதம் இல்லாமல் ஒப்புதல் அளிக்கவும் நடவடிக்கை எடுக்கப்படும்.</span><span data-lang="en">Steps will be taken to define the Governor's powers within proper limits and ensure timely assent to state bills.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">5</div>
+            <div class="policy-title"><span data-lang="ta">இலங்கைத் தமிழர் உரிமை</span><span data-lang="en">Sri Lankan Tamil Rights</span></div>
+            <div class="policy-text"><span data-lang="ta">இலங்கைத் தமிழர்களின் உரிமைகளை சர்வதேச அளவில் எழுப்புதல். இலங்கை அகதிகளுக்கு குடியுரிமை வழங்குதல். இலங்கையில் சுதந்திர நீதிவிசாரணை கோரி ஐ.நா.வில் வலியுறுத்தல்.</span><span data-lang="en">Rights of Sri Lankan Tamils will be raised internationally. Citizenship for Lankan refugees. Demand independent inquiry at the UN.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- CHAPTER 2: DIGNIFIED LIFE -->
+<section class="chapter-section fade-in" id="ch2">
+    <div class="chapter-header">
+        <div class="chapter-num aram">02</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">கண்ணியமான வாழ்க்கை</span>
+            <span data-lang="en">Dignified Life for All</span>
+        </h2>
+        <p class="chapter-desc">
+            <span data-lang="ta">சாதி ஒழிப்பு, சமூகநீதி, சமத்துவம் — அனைவருக்கும் கண்ணியமான வாழ்க்கை</span>
+            <span data-lang="en">Caste annihilation, social justice, equality — a dignified life for everyone</span>
+        </p>
+    </div>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num aram">1</div>
+            <div class="policy-title"><span data-lang="ta">சாதிய வன்முறைத் தடுப்புச் சட்டம்</span><span data-lang="en">Caste Violence Prevention Act</span></div>
+            <div class="policy-text"><span data-lang="ta">சாதிய வன்முறை, ஒடுக்குமுறை ஆகியவற்றைத் தடுக்க கடுமையான சட்டம் இயற்றப்படும். விரைவு நீதி வழங்கும் சிறப்பு நீதிமன்றங்கள் அமைக்கப்படும்.</span><span data-lang="en">Strict law will be enacted to prevent caste violence and oppression. Special fast-track courts will be established.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">2</div>
+            <div class="policy-title"><span data-lang="ta">உள் ஒதுக்கீடு (Reservation within Reservation)</span><span data-lang="en">Sub-categorization of Reservations</span></div>
+            <div class="policy-text"><span data-lang="ta">இட ஒதுக்கீட்டின் பயன்கள் மிகவும் பின்தங்கிய பிரிவினருக்கும் சென்றடைய உள் ஒதுக்கீடு முறை கொண்டுவரப்படும்.</span><span data-lang="en">Sub-categorization of reservations will be implemented so that the most backward sections benefit fully.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">3</div>
+            <div class="policy-title"><span data-lang="ta">அனைத்துப் பொதுக் கோவில்களிலும் அனைத்துச் சாதியினருக்கும் பூசாரி உரிமை</span><span data-lang="en">Equal Priestly Rights for All Castes in Temples</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்துப் பொதுக் கோவில்களிலும் அனைத்துச் சாதியினரும் பூசாரியாக பணிபுரியும் உரிமை சட்டப்படி உறுதி செய்யப்படும்.</span><span data-lang="en">The right for people of all castes to serve as priests in all public temples will be legally guaranteed.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">4</div>
+            <div class="policy-title"><span data-lang="ta">இடஒதுக்கீடு 69% பாதுகாப்பு; தனியார் துறையில் இட ஒதுக்கீடு</span><span data-lang="en">Protecting 69% Reservation; Private Sector Reservation</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழ்நாட்டின் 69% இட ஒதுக்கீடு பாதுகாக்கப்படும். தனியார் துறையிலும் இட ஒதுக்கீடு கொண்டுவர சட்டம் இயற்றப்படும்.</span><span data-lang="en">Tamil Nadu's 69% reservation will be protected. Legislation for reservation in the private sector will be enacted.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">5</div>
+            <div class="policy-title"><span data-lang="ta">மூத்த குடிமக்கள் நல திட்டம்</span><span data-lang="en">Senior Citizens Welfare Scheme</span></div>
+            <div class="policy-text"><span data-lang="ta">60 வயதுக்கு மேற்பட்ட அனைத்து மூத்த குடிமக்களுக்கும் மாத ஓய்வூதியம் ரூ.3,000 ஆக உயர்த்தப்படும். மூத்தோர் பராமரிப்பு மையங்கள் அமைக்கப்படும்.</span><span data-lang="en">Monthly pension for all senior citizens above 60 will be raised to Rs. 3,000. Elder care centres will be established.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">6</div>
+            <div class="policy-title"><span data-lang="ta">மாற்றுத்திறனாளிகள் நலத்திட்டம்</span><span data-lang="en">Differently-Abled Welfare Scheme</span></div>
+            <div class="policy-text"><span data-lang="ta">மாற்றுத்திறனாளிகளுக்கு மாத ஓய்வூதியம் உயர்த்தப்படும். அணுக்கமான உள்கட்டமைப்பு (accessible infrastructure) அனைத்து பொது இடங்களிலும் கட்டாயமாக்கப்படும்.</span><span data-lang="en">Monthly pension for differently-abled persons will be increased. Accessible infrastructure will be made mandatory in all public spaces.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">7</div>
+            <div class="policy-title"><span data-lang="ta">திருநங்கைகள் உரிமை & நலன்</span><span data-lang="en">Transgender Rights & Welfare</span></div>
+            <div class="policy-text"><span data-lang="ta">திருநங்கைகளுக்கு அரசு வேலைவாய்ப்பு, கல்வி, சுகாதாரம் ஆகியவற்றில் சிறப்பு ஒதுக்கீடு. சமூகத்தில் கண்ணியமான இடம் உறுதி செய்யப்படும்.</span><span data-lang="en">Special allocation for transgender persons in government jobs, education, and healthcare. Dignified place in society will be ensured.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">8</div>
+            <div class="policy-title"><span data-lang="ta">ஒவ்வொரு குடும்பத்திற்கும் சொந்த வீடு</span><span data-lang="en">Own Home for Every Family</span></div>
+            <div class="policy-text"><span data-lang="ta">2031-க்குள் தமிழகத்தில் வீடில்லாத குடும்பங்கள் இல்லை என்ற நிலை உருவாக்கப்படும். நகர்ப்புற மற்றும் கிராமப்புற வீட்டு வசதித் திட்டங்கள் விரிவாக்கப்படும்.</span><span data-lang="en">By 2031, no family in Tamil Nadu will be without a home. Urban and rural housing schemes will be expanded.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- CHAPTER 3: WOMEN -->
+<section class="chapter-section fade-in" id="ch3">
+    <div class="chapter-header">
+        <div class="chapter-num aram">03</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">பெண்கள்: சமத்துவம், பாதுகாப்பு, வாய்ப்பு</span>
+            <span data-lang="en">Women: Equality, Safety, Opportunity</span>
+        </h2>
+    </div>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num aram">1</div>
+            <div class="policy-title"><span data-lang="ta">பெண்களுக்கு 50% இட ஒதுக்கீடு — உள்ளாட்சி முதல் சட்டமன்றம் வரை</span><span data-lang="en">50% Reservation for Women — From Local Bodies to Assembly</span></div>
+            <div class="policy-text"><span data-lang="ta">உள்ளாட்சி அமைப்புகள் முதல் சட்டமன்றம் வரை பெண்களுக்கு 50% இட ஒதுக்கீடு உறுதி செய்யப்படும்.</span><span data-lang="en">50% reservation for women will be ensured from local bodies to the state assembly.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">2</div>
+            <div class="policy-title"><span data-lang="ta">வேலை செய்யும் பெண்களுக்கு இலவச பகல் நேரக் குழந்தை பராமரிப்பு மையம்</span><span data-lang="en">Free Daycare Centres for Working Women</span></div>
+            <div class="policy-text"><span data-lang="ta">வேலை செய்யும் பெண்கள் தங்கள் குழந்தைகளை பாதுகாப்பாக விட்டுச் செல்ல ஒவ்வொரு வார்டிலும் இலவச பகல்நேரக் குழந்தை பராமரிப்பு மையங்கள் அமைக்கப்படும்.</span><span data-lang="en">Free daycare centres will be established in every ward so working women can safely leave their children.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">3</div>
+            <div class="policy-title"><span data-lang="ta">பெண்களுக்கான சிறப்பு தொழில் முனைவோர் நிதி</span><span data-lang="en">Special Women Entrepreneurship Fund</span></div>
+            <div class="policy-text"><span data-lang="ta">பெண்கள் சுயதொழில் தொடங்க வட்டியில்லா கடன், பயிற்சி, வழிகாட்டுதல் வழங்கும் சிறப்பு நிதி உருவாக்கப்படும்.</span><span data-lang="en">A special fund with interest-free loans, training, and mentorship will be created for women entrepreneurs.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">4</div>
+            <div class="policy-title"><span data-lang="ta">பெண்கள் பாதுகாப்புக்கான 'அவள் பாதுகாப்பு' திட்டம்</span><span data-lang="en">'Aval Paadhukappu' Women Safety Programme</span></div>
+            <div class="policy-text"><span data-lang="ta">பெண்களுக்கு எதிரான வன்முறை, குடும்ப வன்முறை ஆகியவற்றைத் தடுக்க சிறப்புத் திட்டம். ஒவ்வொரு மாவட்டத்திலும் 24/7 உதவி மையம். விரைவு நீதி நடவடிக்கை.</span><span data-lang="en">Special programme to prevent violence against women and domestic violence. 24/7 help centres in every district. Fast-track justice.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">5</div>
+            <div class="policy-title"><span data-lang="ta">மகப்பேறு சலுகைத் திட்டம் மேம்பாடு</span><span data-lang="en">Enhanced Maternity Benefits Scheme</span></div>
+            <div class="policy-text"><span data-lang="ta">கர்ப்பிணிப் பெண்களுக்கு ஊட்டச்சத்து உதவி ரூ.18,000 ஆக உயர்த்தப்படும். அனைத்து அரசு மருத்துவமனைகளிலும் சிறப்பு மகப்பேறு வார்டுகள்.</span><span data-lang="en">Nutrition assistance for pregnant women will be increased to Rs. 18,000. Special maternity wards in all government hospitals.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">6</div>
+            <div class="policy-title"><span data-lang="ta">சொத்தில் பெண்களுக்கு சம உரிமை</span><span data-lang="en">Equal Property Rights for Women</span></div>
+            <div class="policy-text"><span data-lang="ta">பெற்றோர் சொத்தில் பெண்களுக்கு சம உரிமை உறுதி செய்யப்படும். பெண்கள் பெயரில் சொத்துப் பதிவு ஊக்குவிக்கப்படும்.</span><span data-lang="en">Equal rights for women in parental property will be ensured. Property registration in women's names will be incentivized.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">7</div>
+            <div class="policy-title"><span data-lang="ta">பெண்களுக்கு இலவச பேருந்து பயணம் தொடரும்</span><span data-lang="en">Free Bus Travel for Women Will Continue</span></div>
+            <div class="policy-text"><span data-lang="ta">பெண்களுக்கான இலவச பேருந்துப் பயணம் தொடர்ந்து நடைமுறையில் இருக்கும்.</span><span data-lang="en">Free bus travel for women will continue to be in effect.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- CHAPTER 4: YOUTH -->
+<section class="chapter-section fade-in" id="ch4">
+    <div class="chapter-header">
+        <div class="chapter-num aram">04</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">இளைஞர்கள்: சாதிக்கும் தலைமுறை</span>
+            <span data-lang="en">Youth: A Generation of Achievers</span>
+        </h2>
+    </div>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num aram">1</div>
+            <div class="policy-title"><span data-lang="ta">வேலையில்லா இளைஞர்களுக்கு மாதம் ரூ.3,000 உதவித்தொகை</span><span data-lang="en">Rs. 3,000 Monthly Allowance for Unemployed Youth</span></div>
+            <div class="policy-text"><span data-lang="ta">படித்து வேலையில்லாமல் இருக்கும் இளைஞர்களுக்கு வேலை கிடைக்கும் வரை மாதம் ரூ.3,000 உதவித்தொகை வழங்கப்படும்.</span><span data-lang="en">Educated unemployed youth will receive Rs. 3,000 monthly allowance until they find employment.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">2</div>
+            <div class="policy-title"><span data-lang="ta">10 லட்சம் புதிய வேலைவாய்ப்புகள் — 5 ஆண்டுகளில்</span><span data-lang="en">10 Lakh New Jobs in 5 Years</span></div>
+            <div class="policy-text"><span data-lang="ta">அரசு மற்றும் தனியார் துறையில் 5 ஆண்டுகளில் 10 லட்சம் புதிய வேலைவாய்ப்புகள் உருவாக்கப்படும்.</span><span data-lang="en">10 lakh new jobs will be created in government and private sectors within 5 years.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">3</div>
+            <div class="policy-title"><span data-lang="ta">இளைஞர் தொழில் முனைவோர் திட்டம்</span><span data-lang="en">Youth Entrepreneurship Programme</span></div>
+            <div class="policy-text"><span data-lang="ta">18-35 வயது இளைஞர்களுக்கு ரூ.10 லட்சம் வரை வட்டியில்லா கடன். தொழில் பயிற்சி, வழிகாட்டுதல் மற்றும் சந்தை இணைப்பு வழங்கப்படும்.</span><span data-lang="en">Interest-free loans up to Rs. 10 lakh for youth aged 18-35. Business training, mentorship, and market linkage will be provided.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">4</div>
+            <div class="policy-title"><span data-lang="ta">விளையாட்டுக்கு அரசின் முழு ஆதரவு</span><span data-lang="en">Full Government Support for Sports</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு மாவட்டத்திலும் சர்வதேசத் தரத்திலான விளையாட்டு வளாகம். ஒலிம்பிக் வீரர்களை உருவாக்க சிறப்பு நிதி. விளையாட்டு வீரர்களுக்கு அரசு வேலை உறுதி.</span><span data-lang="en">International-standard sports complexes in every district. Special fund to create Olympic athletes. Government jobs guaranteed for sportspersons.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">5</div>
+            <div class="policy-title"><span data-lang="ta">திறன் மேம்பாட்டு பயிற்சி மையங்கள்</span><span data-lang="en">Skill Development Training Centres</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு தொகுதியிலும் திறன் மேம்பாட்டு மையங்கள் அமைக்கப்பட்டு AI, ரோபோட்டிக்ஸ், EV தொழில்நுட்பம் போன்ற எதிர்கால தொழில்நுட்பங்களில் இலவசப் பயிற்சி வழங்கப்படும்.</span><span data-lang="en">Skill development centres in every constituency offering free training in future technologies like AI, robotics, and EV tech.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num aram">6</div>
+            <div class="policy-title"><span data-lang="ta">வெளிநாட்டில் பணிபுரியும் தமிழர்கள் நலன்</span><span data-lang="en">Welfare of Tamils Working Abroad</span></div>
+            <div class="policy-text"><span data-lang="ta">வெளிநாட்டில் பணிபுரியும் தமிழ்நாட்டு தொழிலாளர்களுக்கு சிறப்பு நல வாரியம் அமைக்கப்படும். அவர்களின் குடும்பங்களுக்கு பாதுகாப்பு உறுதி செய்யப்படும்.</span><span data-lang="en">A special welfare board for Tamil Nadu workers abroad. Safety of their families will be ensured.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- ============================= -->
+<!-- PORUL (பொருள்) — PROSPERITY -->
+<!-- ============================= -->
+<div class="theme-banner porul" id="porul">
+    <div class="theme-kural">
+        <span data-lang="ta">பொருட்பால்</span>
+        <span data-lang="en">The Book of Prosperity</span>
+    </div>
+    <div class="theme-name">
+        <span data-lang="ta">பொருள்</span>
+        <span data-lang="en">Porul — Prosperity</span>
+    </div>
+    <div class="theme-subtitle">
+        <span data-lang="ta">அத்தியாயங்கள் 05 — 07</span>
+        <span data-lang="en">Chapters 05 — 07</span>
+    </div>
+</div>
+
+<!-- CHAPTER 5: AGRICULTURE -->
+<section class="chapter-section fade-in" id="ch5">
+    <div class="chapter-header">
+        <div class="chapter-num porul">05</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">விவசாயம் & மீனவர் நலன்</span>
+            <span data-lang="en">Agriculture & Fishermen Welfare</span>
+        </h2>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">A. விவசாய நலன்</span>
+        <span data-lang="en">A. Agriculture Welfare</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num porul">1</div>
+            <div class="policy-title"><span data-lang="ta">விவசாயிகளின் கடன் தள்ளுபடி</span><span data-lang="en">Farm Loan Waiver</span></div>
+            <div class="policy-text"><span data-lang="ta">கூட்டுறவு மற்றும் வணிக வங்கிக் கடன்கள் தள்ளுபடி செய்யப்படும். விவசாயிகளின் கடன் சுமை முற்றிலும் நீக்கப்படும்.</span><span data-lang="en">Cooperative and commercial bank loans will be waived. Farmers' debt burden will be completely removed.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">2</div>
+            <div class="policy-title"><span data-lang="ta">விவசாயிகளுக்கு ரூ.1 லட்சம் இலவச பயிர்க்காப்பீடு</span><span data-lang="en">Rs. 1 Lakh Free Crop Insurance for Farmers</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து விவசாயிகளுக்கும் ரூ.1 லட்சம் வரை இலவச பயிர்க் காப்பீடு வழங்கப்படும்.</span><span data-lang="en">Free crop insurance up to Rs. 1 lakh will be provided to all farmers.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">3</div>
+            <div class="policy-title"><span data-lang="ta">விவசாயிகளுக்கு மாத ஓய்வூதியம் ரூ.3,000</span><span data-lang="en">Rs. 3,000 Monthly Pension for Farmers</span></div>
+            <div class="policy-text"><span data-lang="ta">60 வயதுக்கு மேற்பட்ட அனைத்து விவசாயிகளுக்கும் மாத ஓய்வூதியம் ரூ.3,000 வழங்கப்படும்.</span><span data-lang="en">Monthly pension of Rs. 3,000 for all farmers above 60 years.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">4</div>
+            <div class="policy-title"><span data-lang="ta">இலவச மின்சாரம் விவசாயிகளுக்கு தொடரும்</span><span data-lang="en">Free Electricity for Farmers Will Continue</span></div>
+            <div class="policy-text"><span data-lang="ta">விவசாயிகளுக்கான இலவச மின்சாரம் தொடர்ந்து வழங்கப்படும்.</span><span data-lang="en">Free electricity for farmers will continue to be provided.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">5</div>
+            <div class="policy-title"><span data-lang="ta">விவசாயிகளுக்கான சிறப்பு சந்தை: நேரடி விற்பனை</span><span data-lang="en">Special Markets for Farmers: Direct Sales</span></div>
+            <div class="policy-text"><span data-lang="ta">இடைத்தரகர்கள் இல்லாமல் விவசாயிகள் நேரடியாக நுகர்வோருக்கு விற்க முடியும் என்ற சிறப்புச் சந்தைகள் அனைத்து மாவட்டங்களிலும் அமைக்கப்படும்.</span><span data-lang="en">Special markets in all districts for farmers to sell directly to consumers without middlemen.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">6</div>
+            <div class="policy-title"><span data-lang="ta">இயற்கை வேளாண்மைக்கு ஊக்கத்தொகை</span><span data-lang="en">Incentives for Organic Farming</span></div>
+            <div class="policy-text"><span data-lang="ta">இயற்கை வேளாண்மைக்கு மாறும் விவசாயிகளுக்கு ஏக்கருக்கு ரூ.15,000 ஊக்கத்தொகை. இயற்கை உணவுப் பொருட்களுக்கு சிறப்புச் சான்றிதழ்.</span><span data-lang="en">Rs. 15,000 per acre incentive for farmers switching to organic farming. Special certification for organic produce.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">7</div>
+            <div class="policy-title"><span data-lang="ta">நிலத்தடி நீர் மேலாண்மை; குளம் மற்றும் ஏரிகள் தூர்வாரல்</span><span data-lang="en">Groundwater Management; Desilting of Tanks & Lakes</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து குளங்கள், ஏரிகள் தூர்வாரப்படும். நிலத்தடி நீர் மேலாண்மை திட்டம் செயல்படுத்தப்படும். மழைநீர் சேகரிப்பு கட்டாயமாக்கப்படும்.</span><span data-lang="en">All tanks and lakes will be desilted. Groundwater management plan will be implemented. Rainwater harvesting made mandatory.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">B. மீனவர் நலன்</span>
+        <span data-lang="en">B. Fishermen Welfare</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num porul">1</div>
+            <div class="policy-title"><span data-lang="ta">மீனவர் குடும்பங்களுக்கு ரூ.25 லட்சம் காப்பீடு</span><span data-lang="en">Rs. 25 Lakh Insurance for Fishermen Families</span></div>
+            <div class="policy-text"><span data-lang="ta">கடலில் உயிரிழக்கும் மீனவர்களின் குடும்பங்களுக்கு ரூ.25 லட்சம் இழப்பீடு. அனைத்து மீனவர்களுக்கும் விரிவான காப்பீட்டுத் திட்டம்.</span><span data-lang="en">Rs. 25 lakh compensation for families of fishermen who lose their lives at sea. Comprehensive insurance for all fishermen.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">2</div>
+            <div class="policy-title"><span data-lang="ta">ஆழ்கடல் மீன்பிடிக்கு நவீன படகுகள்</span><span data-lang="en">Modern Boats for Deep-Sea Fishing</span></div>
+            <div class="policy-text"><span data-lang="ta">ஆழ்கடல் மீன்பிடிக்கு நவீன தொழில்நுட்பம் கொண்ட படகுகள் மானியத்துடன் வழங்கப்படும். மீன் பதனிடும் வசதிகள் மேம்படுத்தப்படும்.</span><span data-lang="en">Modern technology boats will be provided at subsidized rates for deep-sea fishing. Fish preservation facilities will be upgraded.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">3</div>
+            <div class="policy-title"><span data-lang="ta">தடைக்காலத்தில் மீனவர்களுக்கு நிவாரணம் ரூ.10,000</span><span data-lang="en">Rs. 10,000 Relief During Fishing Ban Period</span></div>
+            <div class="policy-text"><span data-lang="ta">மீன்பிடி தடைக்காலத்தில் ஒவ்வொரு மீனவ குடும்பத்திற்கும் ரூ.10,000 நிவாரணம் வழங்கப்படும்.</span><span data-lang="en">Rs. 10,000 relief for every fisherman family during the fishing ban period.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- CHAPTER 6: EDUCATION -->
+<section class="chapter-section fade-in" id="ch6">
+    <div class="chapter-header">
+        <div class="chapter-num porul">06</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">கல்வி: சிறந்த எதிர்காலத்திற்கான அடித்தளம்</span>
+            <span data-lang="en">Education: Foundation for a Better Future</span>
+        </h2>
+    </div>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num porul">1</div>
+            <div class="policy-title"><span data-lang="ta">அரசுப் பள்ளிகளை சர்வதேச தரத்திற்கு மேம்படுத்துதல்</span><span data-lang="en">Upgrading Government Schools to International Standards</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து அரசுப் பள்ளிகளும் நவீன கட்டமைப்பு, ஆய்வகங்கள், நூலகங்கள், விளையாட்டு மைதானங்களுடன் மேம்படுத்தப்படும்.</span><span data-lang="en">All government schools will be upgraded with modern infrastructure, labs, libraries, and playgrounds.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">2</div>
+            <div class="policy-title"><span data-lang="ta">மாணவர்களுக்கு இலவச கல்வி — KG முதல் PG வரை</span><span data-lang="en">Free Education — From KG to PG</span></div>
+            <div class="policy-text"><span data-lang="ta">அரசுப் பள்ளிகள் மற்றும் அரசு கல்லூரிகளில் KG முதல் PG வரை இலவசக் கல்வி. கல்விக்கட்டணம், புத்தகம், சீருடை, பேருந்துக் கட்டணம் அனைத்தும் இலவசம்.</span><span data-lang="en">Free education from KG to PG in government institutions. Fees, books, uniforms, and bus fare all free.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">3</div>
+            <div class="policy-title"><span data-lang="ta">ஒவ்வொரு மாணவருக்கும் டேப்லெட் / லேப்டாப்</span><span data-lang="en">Tablet / Laptop for Every Student</span></div>
+            <div class="policy-text"><span data-lang="ta">9-ம் வகுப்பு முதல் அனைத்து மாணவர்களுக்கும் இலவச டேப்லெட் அல்லது லேப்டாப். டிஜிட்டல் கற்றல் வசதிகள் விரிவாக்கப்படும்.</span><span data-lang="en">Free tablet or laptop for all students from grade 9. Digital learning facilities will be expanded.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">4</div>
+            <div class="policy-title"><span data-lang="ta">ஆசிரியர் நியமனம் & ஊதிய மேம்பாடு</span><span data-lang="en">Teacher Recruitment & Salary Enhancement</span></div>
+            <div class="policy-text"><span data-lang="ta">ஆசிரியர் காலிப் பணியிடங்கள் உடனடியாக நிரப்பப்படும். ஒப்பந்த ஆசிரியர்கள் நிரந்தர பணியாளர்களாக மாற்றப்படுவர். ஊதியம் மேம்படுத்தப்படும்.</span><span data-lang="en">Teacher vacancies will be filled immediately. Contract teachers will be made permanent. Salaries will be improved.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">5</div>
+            <div class="policy-title"><span data-lang="ta">சிறப்புப் பள்ளிகள் — அறிவியல், தொழில்நுட்பம், கலை</span><span data-lang="en">Specialized Schools — Science, Technology, Arts</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு மாவட்டத்திலும் அறிவியல், தொழில்நுட்பம், கலை ஆகியவற்றில் சிறப்புப் பள்ளிகள் அமைக்கப்படும்.</span><span data-lang="en">Specialized schools in science, technology, and arts will be established in every district.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">6</div>
+            <div class="policy-title"><span data-lang="ta">உயர்கல்வியில் ஆராய்ச்சி ஊக்குவிப்பு</span><span data-lang="en">Promoting Research in Higher Education</span></div>
+            <div class="policy-text"><span data-lang="ta">பல்கலைக்கழகங்கள் மற்றும் ஆராய்ச்சி நிறுவனங்களுக்கு ஆராய்ச்சி நிதி அதிகரிக்கப்படும். PhD மாணவர்களுக்கு ஊக்கத்தொகை.</span><span data-lang="en">Research funding for universities and research institutions will be increased. Stipends for PhD students.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">7</div>
+            <div class="policy-title"><span data-lang="ta">போட்டித் தேர்வு பயிற்சி — இலவசமாக</span><span data-lang="en">Free Competitive Exam Coaching</span></div>
+            <div class="policy-text"><span data-lang="ta">UPSC, TNPSC, வங்கி, ரயில்வே போன்ற போட்டித் தேர்வுகளுக்கு அரசே இலவசப் பயிற்சி மையங்கள் நடத்தும்.</span><span data-lang="en">Government will run free coaching centres for competitive exams like UPSC, TNPSC, banking, and railways.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">8</div>
+            <div class="policy-title"><span data-lang="ta">வெளிநாட்டு உயர்கல்விக்கு ஆண்டுக்கு 10,000 மாணவர்களுக்கு உதவித்தொகை</span><span data-lang="en">Scholarships for 10,000 Students Annually for Foreign Education</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு ஆண்டும் 10,000 மாணவர்களுக்கு வெளிநாட்டு உயர்கல்விக்கு முழு உதவித்தொகை வழங்கப்படும்.</span><span data-lang="en">Full scholarships for 10,000 students every year for higher education abroad.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- CHAPTER 7: PROSPEROUS TAMIL NADU -->
+<section class="chapter-section fade-in" id="ch7">
+    <div class="chapter-header">
+        <div class="chapter-num porul">07</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">வெற்றித் தமிழ்நாடு — பொருளாதார வளர்ச்சி</span>
+            <span data-lang="en">Victorious Tamil Nadu — Economic Growth</span>
+        </h2>
+        <p class="chapter-desc">
+            <span data-lang="ta">7 மண்டலங்கள் + வளமான தமிழ்நாடு + வழிகாட்டும் தமிழ்நாடு</span>
+            <span data-lang="en">7 Regional Plans + Prosperous Tamil Nadu + Leading Tamil Nadu</span>
+        </p>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">A-E. மண்டல வளர்ச்சித் திட்டங்கள் (7 மண்டலங்கள்)</span>
+        <span data-lang="en">A-E. Regional Development Plans (7 Regions)</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num porul">1</div>
+            <div class="policy-title"><span data-lang="ta">வடக்கு மண்டலம் (சென்னை, காஞ்சிபுரம், திருவள்ளூர், செங்கல்பட்டு, வேலூர், ராணிப்பேட்டை, திருப்பத்தூர், திருவண்ணாமலை)</span><span data-lang="en">Northern Region (Chennai, Kanchipuram, Tiruvallur, Chengalpattu, Vellore, Ranipet, Tirupattur, Tiruvannamalai)</span></div>
+            <div class="policy-text"><span data-lang="ta">சென்னை பெருநகரப் பொருளாதார மண்டலம் விரிவாக்கம். நான்காவது பெருநகர சாலை (ORR4). சென்னையை 2 கோடி மக்கள் நகரமாக தரம் உயர்த்தல். வடக்கு சென்னை தொழிற்பேட்டை நவீனமயமாக்கல்.</span><span data-lang="en">Chennai Metropolitan Economic Zone expansion. Fourth Outer Ring Road (ORR4). Upgrading Chennai as a city for 2 crore people. Modernization of North Chennai industrial estate.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">2</div>
+            <div class="policy-title"><span data-lang="ta">வடமேற்கு மண்டலம் (கிருஷ்ணகிரி, தர்மபுரி, சேலம், நாமக்கல், கரூர், பெரம்பலூர், அரியலூர்)</span><span data-lang="en">North-West Region (Krishnagiri, Dharmapuri, Salem, Namakkal, Karur, Perambalur, Ariyalur)</span></div>
+            <div class="policy-text"><span data-lang="ta">சேலம் முதல் கிருஷ்ணகிரி வரை IT Corridor. கிருஷ்ணகிரி பூங்காத் தொழிற்பேட்டை. பெங்களூர்-சேலம் எக்ஸ்பிரஸ்வே. சேலம் விமானநிலையம் மேம்பாடு.</span><span data-lang="en">Salem to Krishnagiri IT Corridor. Krishnagiri industrial park. Bengaluru-Salem Expressway. Salem airport upgradation.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">3</div>
+            <div class="policy-title"><span data-lang="ta">மேற்கு மண்டலம் (கோயம்புத்தூர், திருப்பூர், நீலகிரி, ஈரோடு, டிண்டுக்கல்)</span><span data-lang="en">Western Region (Coimbatore, Tiruppur, Nilgiris, Erode, Dindigul)</span></div>
+            <div class="policy-text"><span data-lang="ta">கோயம்புத்தூர் சர்வதேச தொழில்நுட்ப மையம். திருப்பூர் ஜவுளி உலகச் சந்தை. நீலகிரி சுற்றுலா மேம்பாடு. கோயம்புத்தூர்-மதுரை தொழிற்சாலை இணைப்பு வழி.</span><span data-lang="en">Coimbatore International Technology Hub. Tiruppur textile global market. Nilgiris tourism development. Coimbatore-Madurai industrial corridor.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">4</div>
+            <div class="policy-title"><span data-lang="ta">கிழக்கு மண்டலம் (திருச்சி, தஞ்சாவூர், நாகப்பட்டினம், திருவாரூர், புதுக்கோட்டை, கடலூர், கள்ளக்குறிச்சி, விழுப்புரம், மயிலாடுதுறை)</span><span data-lang="en">Eastern Region (Trichy, Thanjavur, Nagapattinam, Tiruvarur, Pudukkottai, Cuddalore, Kallakurichi, Villupuram, Mayiladuthurai)</span></div>
+            <div class="policy-text"><span data-lang="ta">திருச்சி-தஞ்சாவூர் பசுமை நெல் வளையம். காவிரி கரை சுற்றுலா மேம்பாடு. தஞ்சாவூர் கலை & பண்பாட்டு மையம். நாகப்பட்டினம் துறைமுகம் மேம்பாடு.</span><span data-lang="en">Trichy-Thanjavur green rice belt. Cauvery riverside tourism. Thanjavur art & cultural centre. Nagapattinam port development.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">5</div>
+            <div class="policy-title"><span data-lang="ta">வடகிழக்கு மண்டலம் — பொன்னியின் செல்வன் சுற்றுலா வளையம்</span><span data-lang="en">North-East Region — Ponniyin Selvan Tourism Circuit</span></div>
+            <div class="policy-text"><span data-lang="ta">சோழ மண்டல சுற்றுலா வளையம் உருவாக்கம். கடலூர் SIPCOT மேம்பாடு. மயிலாடுதுறை நெசவாளர் நலன். கள்ளக்குறிச்சி சிறப்பு நலத்திட்டங்கள்.</span><span data-lang="en">Chola dynasty tourism circuit. Cuddalore SIPCOT upgradation. Mayiladuthurai weaver welfare. Kallakurichi special welfare programmes.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">6</div>
+            <div class="policy-title"><span data-lang="ta">தென்மேற்கு மண்டலம் (தேனி, விருதுநகர், மதுரை)</span><span data-lang="en">South-West Region (Theni, Virudhunagar, Madurai)</span></div>
+            <div class="policy-text"><span data-lang="ta">மதுரை சர்வதேச சுற்றுலா மையம். விருதுநகர் பட்டாசு தொழில் பாதுகாப்பு. தேனி மலைப்பகுதி சுற்றுலா வளர்ச்சி.</span><span data-lang="en">Madurai international tourism hub. Virudhunagar fireworks industry safety. Theni hill tourism development.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">7</div>
+            <div class="policy-title"><span data-lang="ta">தெற்கு மண்டலம் (தூத்துக்குடி, திருநெல்வேலி, விருதுநகர், கன்னியாகுமரி, ராமநாதபுரம், சிவகங்கை, தென்காசி, தேனி, திண்டுக்கல்)</span><span data-lang="en">Southern Region (Thoothukudi, Tirunelveli, Kanyakumari, Ramanathapuram, Sivagangai, Tenkasi, Theni, Dindigul)</span></div>
+            <div class="policy-text"><span data-lang="ta">தென் மண்டல தொழிற்துறை மறுமலர்ச்சி சட்டம். Free Trade Warehousing Zone. குலசேகரப்பட்டினம் விண்வெளி தொழிற்பேட்டை. தூத்துக்குடி புதுப்பிக்கத்தக்க எரிசக்தி மையம். கன்னியாகுமரி நீலப் பொருளாதார மண்டலம்.</span><span data-lang="en">Southern region industrial revival act. Free Trade Warehousing Zone. Kulasekarapattinam space industry hub. Thoothukudi renewable energy centre. Kanyakumari blue economy zone.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">F. வளமான தமிழ்நாடு — ஸ்டார்ட்-அப் & தொழில்நுட்பம்</span>
+        <span data-lang="en">F. Prosperous Tamil Nadu — Startups & Technology</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num porul">1</div>
+            <div class="policy-title"><span data-lang="ta">ஸ்டார்ட் – ஸ்மார்ட் தமிழ்நாடு: 10,000 ஸ்டார்ட்-அப்கள்</span><span data-lang="en">Start-Smart Tamil Nadu: 10,000 Startups</span></div>
+            <div class="policy-text"><span data-lang="ta">5 ஆண்டுகளில் 10,000 ஸ்டார்ட்-அப் நிறுவனங்களுக்கு ரூ.50 லட்சம் வரை முதலீட்டு உதவி, பயிற்சி, ஆலோசனை வழங்கப்படும்.</span><span data-lang="en">Investment support up to Rs. 50 lakh, training, and mentorship for 10,000 startups in 5 years.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">2</div>
+            <div class="policy-title"><span data-lang="ta">5 சர்வதேச தரத்திலான இன்குபேட்டர்கள்</span><span data-lang="en">5 International-Standard Incubators</span></div>
+            <div class="policy-text"><span data-lang="ta">சென்னை, கோயம்புத்தூர், மதுரை, திருச்சி, சேலம் ஆகிய மாவட்டங்களில் இன்குபேட்டர்கள் அமைக்கப்படும்.</span><span data-lang="en">Incubators will be set up in Chennai, Coimbatore, Madurai, Trichy, and Salem.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">3</div>
+            <div class="policy-title"><span data-lang="ta">ஸ்டார்ட்-அப் Venture Capital Fund: ரூ.500 கோடி</span><span data-lang="en">Startup Venture Capital Fund: Rs. 500 Crore</span></div>
+            <div class="policy-text"><span data-lang="ta">AI, Deep-Tech, FinTech ஸ்டார்ட்-அப் நிறுவனங்களுக்கு அரசு சார்பில் ரூ.500 கோடி Venture Capital Fund.</span><span data-lang="en">Rs. 500 crore Venture Capital Fund from government for AI, Deep-Tech, and FinTech startups.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">4</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ்நாடு ஸ்டார்ட்-அப் மாநாடு</span><span data-lang="en">Tamil Nadu Startup Conference</span></div>
+            <div class="policy-text"><span data-lang="ta">உலகளவில் உள்ள ஸ்டார்ட்-அப் நிறுவனர்கள், முதலீட்டாளர்கள், தொழில்துறை வல்லுநர்களை ஒருங்கிணைக்கும் தமிழ்நாடு ஸ்டார்ட்-அப் மாநாடு ஒவ்வொரு ஆண்டும் நடத்தப்படும்.</span><span data-lang="en">An annual Tamil Nadu Startup Conference bringing together global startup founders, investors, and industry experts.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">G. வழிகாட்டும் தமிழ்நாடு — எதிர்காலத் தொழில்நுட்பம்</span>
+        <span data-lang="en">G. Leading Tamil Nadu — Future Technology</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num porul">1</div>
+            <div class="policy-title"><span data-lang="ta">EV வாகனங்கள் மற்றும் பேட்டரி தயாரிப்பு</span><span data-lang="en">EV Vehicles & Battery Manufacturing</span></div>
+            <div class="policy-text"><span data-lang="ta">2031-க்குள் 20,000 பொது EV சார்ஜிங் ஸ்டேஷன்கள். பேட்டரி செல் தொழிற்சாலைகள். தமிழ்நாடு இந்தியாவில் நம்பர் 1 EV மாநிலமாக மாறும். EV மெக்கானிக்குகளுக்கு பயிற்சி.</span><span data-lang="en">20,000 public EV charging stations by 2031. Battery cell factories. Tamil Nadu to become India's No. 1 EV state. Training for EV mechanics.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">2</div>
+            <div class="policy-title"><span data-lang="ta">இந்தியாவின் முதல் வணிக டிரோன் வழித்தடம்</span><span data-lang="en">India's First Commercial Drone Corridor</span></div>
+            <div class="policy-text"><span data-lang="ta">10 மாவட்டங்களில் சிறப்பு வணிக டிரோன் வழித்தடங்கள் உருவாக்கப்படும். டிரோன் தயாரிப்பு ஸ்டார்ட்-அப்கள் ஊக்குவிக்கப்படும்.</span><span data-lang="en">Special commercial drone corridors in 10 districts. Drone manufacturing startups will be encouraged.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">3</div>
+            <div class="policy-title"><span data-lang="ta">இந்தியாவின் முதல் டிஜிட்டல் நிதி மையம் — i-Tamil FinTech Corridor</span><span data-lang="en">India's First Digital Finance Centre — i-Tamil FinTech Corridor</span></div>
+            <div class="policy-text"><span data-lang="ta">கோயம்புத்தூரில் i-Tamil FinTech Corridor அமைக்கப்படும். FinTech ஸ்டார்ட்-அப்களுக்கு Cloud Server செலவுகளில் 30% திருப்பிக் கொடுக்கப்படும்.</span><span data-lang="en">i-Tamil FinTech Corridor in Coimbatore. 30% of cloud server costs refunded for FinTech startups.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">4</div>
+            <div class="policy-title"><span data-lang="ta">உலக கன்டென்ட் மையமாகத் தமிழ்நாடு — AVGC-XR கிரியேட்டிவ் பொருளாதாரம்</span><span data-lang="en">Tamil Nadu as Global Content Hub — AVGC-XR Creative Economy</span></div>
+            <div class="policy-text"><span data-lang="ta">அனிமேஷன், விஷுவல் எஃபெக்ட், கேமிங் மற்றும் காமிக்ஸ் (AVGC) Creative Economy Policy. படைப்பாளர் மையம் — 500 அரசுப்பள்ளிகளில் சிறப்புச் செயற்றிறனோடு கூடிய AVGC மையம். IP பாதுகாப்பு நிதி. VFX ஸ்டூடியோக்களுக்கு வரிவிலக்கு.</span><span data-lang="en">AVGC Creative Economy Policy for animation, VFX, gaming, and comics. Creator hubs in 500 schools. IP protection fund. Tax exemptions for VFX studios.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">5</div>
+            <div class="policy-title"><span data-lang="ta">விண்வெளி தொழில்நுட்பம் — குலசேகரப்பட்டினம் விண்வெளி ஆராய்ச்சி முதலீடு</span><span data-lang="en">Space Technology — Kulasekarapattinam Space Research Investment</span></div>
+            <div class="policy-text"><span data-lang="ta">இஸ்ரோவின் புதிய ஏவுதளம் தூத்துக்குடி குலசேகரப்பட்டினத்தில். தமிழ்நாடு விண்வெளி தொழில்நுட்ப மாநிலமாக மாறும். Satellite & Propulsion System ஸ்டார்ட்-அப்களுக்கு ரூ.100 கோடி Sky Start Seed Fund.</span><span data-lang="en">ISRO's new launch pad at Kulasekarapattinam. Tamil Nadu to become a space tech state. Rs. 100 crore Sky Start Seed Fund for satellite & propulsion startups.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num porul">6</div>
+            <div class="policy-title"><span data-lang="ta">தூத்துக்குடி பசுமை ஹைட்ரஜன் மையம்</span><span data-lang="en">Thoothukudi Green Hydrogen Centre</span></div>
+            <div class="policy-text"><span data-lang="ta">தூத்துக்குடி துறைமுகத்தில் பசுமை ஹைட்ரஜன் மையம் அமைக்கப்படும். சர்வதேச கப்பல்களுக்குப் பசுமை அமோனியா நிரப்பும் வசதி.</span><span data-lang="en">Green Hydrogen centre at Thoothukudi port. Green ammonia refueling facility for international ships.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- ============================= -->
+<!-- INBAM (இன்பம்) — HAPPINESS -->
+<!-- ============================= -->
+<div class="theme-banner inbam" id="inbam">
+    <div class="theme-kural">
+        <span data-lang="ta">இன்பத்துப்பால்</span>
+        <span data-lang="en">The Book of Happiness</span>
+    </div>
+    <div class="theme-name">
+        <span data-lang="ta">இன்பம்</span>
+        <span data-lang="en">Inbam — Happiness</span>
+    </div>
+    <div class="theme-subtitle">
+        <span data-lang="ta">அத்தியாயங்கள் 08 — 10</span>
+        <span data-lang="en">Chapters 08 — 10</span>
+    </div>
+</div>
+
+<!-- CHAPTER 8: HEALTHCARE & ENVIRONMENT -->
+<section class="chapter-section fade-in" id="ch8">
+    <div class="chapter-header">
+        <div class="chapter-num inbam">08</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">மருத்துவம் மற்றும் சுற்றுச்சூழல்</span>
+            <span data-lang="en">Healthcare & Environment</span>
+        </h2>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">A. அனைத்து குடும்பங்களுக்கும் உலகத்தரமான மருத்துவம்</span>
+        <span data-lang="en">A. World-Class Healthcare for All Families</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">மக்கள்நலன் பாதுகாப்பு — ரூ.25 லட்சம் மருத்துவக் காப்பீடு</span><span data-lang="en">Health Protection — Rs. 25 Lakh Medical Insurance</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு குடும்பத்திற்கும் ரூ.25 லட்சம் மதிப்பிலான 'மக்கள் நலன் காப்பீடு' அட்டை. கேன்சர், இதய அறுவை சிகிச்சை, டயாலிசிஸ், ரோபோடிக் அறுவை சிகிச்சை உட்பட அனைத்து விதமான மருத்துவ சேவைகளுக்கும் காப்பீடு.</span><span data-lang="en">Rs. 25 lakh 'People's Health Insurance' card for every family. Coverage for cancer, heart surgery, dialysis, robotic surgery, and all medical services.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">கட்டணமில்லா முழு உடல் பரிசோதனை</span><span data-lang="en">Free Complete Body Checkup</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழக மக்கள் ஒவ்வொருவருக்கும் வருடத்திற்கு ஒருமுறை கட்டணமில்லா முழு உடல் பரிசோதனை.</span><span data-lang="en">Free annual complete body checkup for every citizen of Tamil Nadu.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">ஐந்து புதிய பன்னோக்கு மருத்துவமனைகள்</span><span data-lang="en">Five New Multi-Specialty Hospitals</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழ்நாட்டின் தென்பகுதி தொடங்கி பின்தங்கிய 5 பகுதிகளில் 500 படுக்கைகள், டிஜிட்டல் ICU, நவீன நோய் கண்டறியும் வசதிகள் கொண்ட ஐந்து சிறப்பு மருத்துவமனைகள்.</span><span data-lang="en">Five multi-specialty hospitals with 500 beds, digital ICU, and modern diagnostics in 5 underserved regions.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">நவீன ஆரம்ப சுகாதார நிலையங்கள் — IPHS 2025</span><span data-lang="en">Modern Primary Health Centres — IPHS 2025</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து ஆரம்ப சுகாதார நிலையங்களும் IPHS-2025 தரத்திற்கு உயர்த்தப்படும். 3 மருத்துவர்கள், ஒரு லேப் டெக்னீசியன், ஒரு மனநல ஆலோசகர் — 24/7 சேவை.</span><span data-lang="en">All PHCs upgraded to IPHS-2025 standards. 3 doctors, lab technician, mental health counselor — 24/7 service.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">மக்கள் நல நிலையம் — 3,000 டெலி மருத்துவ கிளினிக்</span><span data-lang="en">People's Health Stations — 3,000 Telemedicine Clinics</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒரு செவிலியர், அருகில் இருக்கும் ஆரம்ப சுகாதார நிலையத்தோடு கலந்தாலோசிக்க டெலி மெடிசின் வசதிகள், நோய் கண்டறியும் கருவிகள் கொண்ட 3,000 மக்கள் நல நிலையங்கள். காலை 7 முதல் இரவு 9 வரை.</span><span data-lang="en">3,000 people's health stations with nurse, telemedicine facilities, diagnostic tools. Operating 7 AM to 9 PM.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">6</div>
+            <div class="policy-title"><span data-lang="ta">IVF சந்ததி திட்டம் — இலவச IVF சிகிச்சை</span><span data-lang="en">IVF Progeny Scheme — Free IVF Treatment</span></div>
+            <div class="policy-text"><span data-lang="ta">குழந்தையில்லா இணையர்களுக்கு அனைத்து அரசு மருத்துவமனைகளிலும் இலவச IVF சிகிச்சை மையங்கள் நிறுவப்படும்.</span><span data-lang="en">Free IVF treatment centres in all government hospitals for childless couples.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">7</div>
+            <div class="policy-title"><span data-lang="ta">கிராம மருத்துவமனைகளை நவீனமாக மாற்றுதல்</span><span data-lang="en">Modernizing Rural Hospitals</span></div>
+            <div class="policy-text"><span data-lang="ta">இரண்டு படுக்கையுடன் கூடிய டயாலிசிஸ் பிரிவு, நான்கு படுக்கையுடன் கூடிய அவசர சிகிச்சைப் பிரிவு, மகப்பேறு பரிசோதனை, ஆப்ரேஷன் தியேட்டர் ஆகியவற்றோடு அனைத்து கிராம மருத்துவமனைகளும் நவீனமாக்கப்படும்.</span><span data-lang="en">All rural hospitals modernized with dialysis units, emergency care, maternity ward, and operation theatre.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">8</div>
+            <div class="policy-title"><span data-lang="ta">குறைந்த விலையில் மருந்துகள்</span><span data-lang="en">Low-Cost Medicines</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து அரசு மருத்துவமனைகள் மற்றும் மருத்துவக் கல்லூரி மருத்துவமனைகளில் 50 சதவீதத்திலிருந்து 90 சதவீதம் வரை மலிவு விலையில் மருந்துகள்.</span><span data-lang="en">Medicines at 50% to 90% lower cost in all government and medical college hospitals.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">9</div>
+            <div class="policy-title"><span data-lang="ta">மகிழ்ச்சியான தமிழ்நாடு திட்டம் (Happy Tamil Nadu Mission)</span><span data-lang="en">Happy Tamil Nadu Mission</span></div>
+            <div class="policy-text"><span data-lang="ta">மனநலம், சமூக நல்வினைக்கம் மற்றும் வாழ்க்கைத் தரத்தை மேம்படுத்துவதற்காக 'மகிழ்ச்சி சூழல் அமைப்பை' (Happiness Ecosystem) தமிழக வெற்றிக் கழக அரசு உருவாக்கும்.</span><span data-lang="en">TVK government will create a 'Happiness Ecosystem' to improve mental health, social well-being, and quality of life.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">10</div>
+            <div class="policy-title"><span data-lang="ta">மனநல மருத்துவத் திட்டம்</span><span data-lang="en">Mental Health Programme</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு சமுதாய மருத்துவமனையிலும் 10 படுக்கைகளுடன் கூடிய மனநல மருத்துவ பிரிவு. ஒவ்வொரு உயர்நிலைப்பள்ளியிலும் ஒரு மனநல ஆலோசகர். மனநல மருத்துவத்திற்காக ஆண்டுக்கு ரூ.500 கோடி.</span><span data-lang="en">Mental health unit with 10 beds in every community hospital. One mental health counselor in every higher secondary school. Rs. 500 crore annually for mental healthcare.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">11</div>
+            <div class="policy-title"><span data-lang="ta">சித்தா மருத்துவம் — உலக புகழ்பெற்ற தமிழ்நாடு</span><span data-lang="en">Siddha Medicine — World-Renowned Tamil Nadu</span></div>
+            <div class="policy-text"><span data-lang="ta">சித்தா நலன் சுற்றுலா திட்டம். அரசு அங்கீகாரம் பெற்ற சித்தா மறுசீரமைப்பு சான்றிதழ். நீலகிரி, கொடைக்கானல், ஏற்காடு, குற்றாலம் ஆகிய இடங்களில் சித்தா மையங்கள்.</span><span data-lang="en">Siddha wellness tourism plan. Government-certified Siddha rehabilitation. Siddha centres in Nilgiris, Kodaikanal, Yercaud, and Courtallam.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">B. சுற்றுச்சூழல், காடுகள் & காலநிலை மாற்றம்</span>
+        <span data-lang="en">B. Environment, Forests & Climate Change</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ்நாடு காலநிலை பட்ஜெட் ரூ.3,000 கோடி</span><span data-lang="en">Tamil Nadu Climate Budget Rs. 3,000 Crore</span></div>
+            <div class="policy-text"><span data-lang="ta">காலநிலை மாற்றத்திற்கு எதிரான நடவடிக்கைகளுக்கு சிறந்து ரூ.3,000 கோடி ஒதுக்கப்படும்.</span><span data-lang="en">Rs. 3,000 crore allocated for climate change mitigation measures.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">மரணத்தைத் தவிர்க்கும் பேரிடர் மேலாண்மை</span><span data-lang="en">Zero-Death Disaster Management</span></div>
+            <div class="policy-text"><span data-lang="ta">38 மாவட்டங்களிலும் ஒருங்கிணைந்த பேரிடர் மேலாண்மை அலுவலகம். 5 கடலோர நகரங்களில் வெள்ளம் தடுப்பு கட்டமைப்பு. வெப்ப அலை எதிரொலி மேலாண்மை.</span><span data-lang="en">Integrated disaster management offices in all 38 districts. Flood prevention infrastructure in 5 coastal cities. Heat wave management.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">நீடித்த ஆற்றல் பொருளாதார பிரிவு</span><span data-lang="en">Sustainable Energy Economy Division</span></div>
+            <div class="policy-text"><span data-lang="ta">முதலமைச்சரின் அலுவலகத்தின் கீழ் நீடித்த ஆற்றல் பொருளாதார பிரிவு உருவாக்கப்படும்.</span><span data-lang="en">A Sustainable Energy Economy Division will be created under the Chief Minister's Office.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">பசுமை தமிழ்நாடு — 2031-க்குள் 33% காடுகள்</span><span data-lang="en">Green Tamil Nadu — 33% Forest Cover by 2031</span></div>
+            <div class="policy-text"><span data-lang="ta">2031-க்குள் தமிழ்நாட்டின் காடுகளின் பரப்பை 33% ஆக அதிகரிக்க உறுதி. வெளிநாட்டு விலங்குகளுக்கு தொடர்பற்ற பதிலாக காடுகளுடன் அதிக தொடர்புடைய உள்ளூர் விலங்குகளை வாழ்வமர்த்தல்.</span><span data-lang="en">Commitment to increase forest cover to 33% by 2031. Reintroduce native species linked to forests.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">சுத்தமான ஆறுகள்</span><span data-lang="en">Clean Rivers</span></div>
+            <div class="policy-text"><span data-lang="ta">காவிரி, வைகை, தாமிரபரணி ஆகிய மூன்று ஆறுகளின் நெசவாலைக் கழிவுகள் ஆற்றில் கலப்பது முற்றிலும் தடுக்கப்படும். திருச்சியில் காவிரி கரைப்பூங்கா, மதுரை வைகை கரைப்பூங்கா, திருநெல்வேலியில் தாமிரபரணி கரைப்பூங்கா அமைக்கப்படும்.</span><span data-lang="en">Industrial effluents from being discharged into Cauvery, Vaigai, and Thamiraparani rivers will be completely stopped. Riverside parks in Trichy, Madurai, and Tirunelveli.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">6</div>
+            <div class="policy-title"><span data-lang="ta">காடுகள் மற்றும் மனிதர்கள் — வனவிலங்கு பாதுகாப்பு</span><span data-lang="en">Forests & People — Wildlife Protection</span></div>
+            <div class="policy-text"><span data-lang="ta">காடுகளில் பழங்குடியின மக்களுக்காக 50 கிமீ நீளமுள்ள சோலார் ஆற்றல் முனையம் நிறுவப்படும். GPS கொண்ட 500 வனப்பாதுகாப்பு அதிகாரிகள். வனவிலங்குகளால் பலியாகும் மக்களுக்கு ரூ.10 லட்சம் நிவாரணம்.</span><span data-lang="en">50 km solar-powered fencing for tribal communities in forests. 500 GPS-equipped forest protection officers. Rs. 10 lakh relief for wildlife attack victims.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">7</div>
+            <div class="policy-title"><span data-lang="ta">சதுப்புநிலக் காடுகள் பாதுகாப்பு</span><span data-lang="en">Mangrove Forest Protection</span></div>
+            <div class="policy-text"><span data-lang="ta">சதுப்புநிலக் காடுகள் பாதுகாப்பு மண்டலமாக இணைக்கப்படும்.</span><span data-lang="en">Mangrove forests will be designated as protected zones.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">8</div>
+            <div class="policy-title"><span data-lang="ta">தூய காற்று — ரூ.500 கோடி</span><span data-lang="en">Clean Air — Rs. 500 Crore</span></div>
+            <div class="policy-text"><span data-lang="ta">காற்று மாசை கட்டுப்படுத்த ஆண்டுக்கு ரூ.500 கோடி நிதி ஒதுக்கீடு.</span><span data-lang="en">Rs. 500 crore annual fund to control air pollution.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">9</div>
+            <div class="policy-title"><span data-lang="ta">கூவம் மற்றும் அடையாறு நதிகள் மீட்பு இயக்கம்</span><span data-lang="en">Cooum & Adyar River Restoration Movement</span></div>
+            <div class="policy-text"><span data-lang="ta">சென்னை கூவம் மற்றும் அடையாறு ஆறுகள் 'இயக்க வடிவிலான' (Mission-mode) அணுகுமுறையின் மூலம் மீட்டெடுக்கப்படும்.</span><span data-lang="en">Chennai's Cooum and Adyar rivers will be restored through a Mission-mode approach.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">10</div>
+            <div class="policy-title"><span data-lang="ta">பள்ளிக்கரணை சதுப்புநிலப் பாதுகாப்பு மற்றும் மறுசீரமைப்பு</span><span data-lang="en">Pallikaranai Marshland Protection & Restoration</span></div>
+            <div class="policy-text"><span data-lang="ta">பள்ளிக்கரணை சதுப்புநிலத்தில் உள்ள ஆக்கிரமிப்புகள் அகற்றப்படும். ஒரு முக்கியமான நகர்ப்புற சரணிலம் மற்றும் பல்லுயிர் மண்டலமாக பாதுகாக்கப்பட்டு மீட்டெடுக்கப்படும்.</span><span data-lang="en">Encroachments in Pallikaranai marshland will be removed. Protected and restored as a vital urban wetland and biodiversity zone.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- CHAPTER 9: INFRASTRUCTURE -->
+<section class="chapter-section fade-in" id="ch9">
+    <div class="chapter-header">
+        <div class="chapter-num inbam">09</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">உலகத்தரமான கட்டமைப்பு</span>
+            <span data-lang="en">World-Class Infrastructure</span>
+        </h2>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">A. மின்சாரம் மற்றும் பசுமை ஆற்றல்</span>
+        <span data-lang="en">A. Electricity & Green Energy</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">24 மணிநேரமும் தங்குதடையற்ற மின்சாரம்</span><span data-lang="en">24-Hour Uninterrupted Power Supply</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழ்நாட்டின் கிராமங்களில் 2 மணிநேரத்திலிருந்து 8 மணிநேரம் வரை அறிவிக்கப்படாத மின்தடை. த.வெ.க. ஆட்சியில் 24 மணிநேரமும் தங்குதடையற்ற மின்சாரம்.</span><span data-lang="en">Villages face 2-8 hours of unannounced power cuts. TVK government will ensure 24-hour uninterrupted power supply.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">சோலார் மானியம்: 1kW ரூ.35,000, 2kW ரூ.70,000, 3kW+ ரூ.1 லட்சம்</span><span data-lang="en">Solar Subsidy: 1kW Rs.35,000, 2kW Rs.70,000, 3kW+ Rs.1 Lakh</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு வீட்டிலும் சோலார் பேனல் பொருத்துவதன் மூலம் நம் மாநிலம் தன்னிறைவு பெற்ற மாநிலமாக மாறும்.</span><span data-lang="en">Every household will become self-sufficient through solar panels with substantial government subsidy.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">மாதம் ஒருமுறை மின்கட்டணம்</span><span data-lang="en">Monthly Electricity Billing</span></div>
+            <div class="policy-text"><span data-lang="ta">தற்போது இருக்கும் இரண்டு மாதத்திற்கு ஒருமுறை மின்கட்டணக் கணக்கீடு நீக்கப்பட்டு, மாதம் ஒருமுறை மின்கட்டணம் கணக்கிடுவது அமல்படுத்தப்படும்.</span><span data-lang="en">Current bi-monthly billing replaced with monthly electricity billing.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">TANGEDCO சீர்திருத்தம்; அடுக்குமாடிக் குடியிருப்பு மின்கட்டணக் குறைத்தல்</span><span data-lang="en">TANGEDCO Reform; Reducing Apartment Electricity Tariff</span></div>
+            <div class="policy-text"><span data-lang="ta">TANGEDCO-ன் AT&C இழப்புகளை 16%-லிருந்து 10% ஆக குறைத்தல். 18,000 பழைய மின்மாற்றிகள் மாற்றம். அடுக்குமாடிக் குடியிருப்பு மின்கட்டணம் வசூலிப்பது பதிலாக தனிப்பட்ட குடியிருப்பு கட்டணம் வசூலிப்பு.</span><span data-lang="en">Reduce TANGEDCO's AT&C losses from 16% to 10%. Replace 18,000 old transformers. Individual billing for apartments instead of bulk billing.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">2031-க்குள் 50% புதுப்பிக்கத்தக்க வளங்கள்; மின்சார பேருந்துகள்</span><span data-lang="en">50% Renewables by 2031; Electric Buses</span></div>
+            <div class="policy-text"><span data-lang="ta">2031-க்குள் தமிழகப் பயன்பாட்டின் 50% புதுப்பிக்கத்தக்க வளங்கள் மூலம் பெறப்படும். TNSTC கீழ் இயங்கும் 5,000 பேருந்துகளும் மின்மயமாக்கப்படும்.</span><span data-lang="en">50% of Tamil Nadu's energy from renewables by 2031. All 5,000 TNSTC buses will be electrified.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">B. நவீன கட்டமைப்பு — போக்குவரத்து</span>
+        <span data-lang="en">B. Modern Infrastructure — Transport</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">மெட்ரோ பரவலாக்கம் — சென்னை மெட்ரோ 2, கோவை & மதுரை மெட்ரோ</span><span data-lang="en">Metro Expansion — Chennai Metro 2, Coimbatore & Madurai Metro</span></div>
+            <div class="policy-text"><span data-lang="ta">சென்னை மெட்ரோ ரயில் 2-ஆவது கட்டம் 118.9 கி.மீ. கோவை மெட்ரோ ரயில் முதல் கட்டம் 40 கி.மீ. மதுரை மெட்ரோ ரயில் திட்ட வரைவு 18 மாதங்களில்.</span><span data-lang="en">Chennai Metro Phase 2 at 118.9 km. Coimbatore Metro Phase 1 at 40 km. Madurai Metro plan in 18 months.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">தூத்துக்குடி விமான நிலையம் இரவில் விமான சேவை & கோவை விமான நிலையம் விரிவாக்கம்</span><span data-lang="en">Thoothukudi Airport Night Service & Coimbatore Airport Expansion</span></div>
+            <div class="policy-text"><span data-lang="ta">தூத்துக்குடி விமான நிலையத்தில் இரவில் விமான சேவை வழங்குதல், சரக்கு முனையம் தனி முனையம் நிறுவல், கோவை விமான நிலையத்தை அரசு-தனியார் பங்களிப்பில் சர்வதேசத் தரத்திற்கு விரிவாக்கம்.</span><span data-lang="en">Night flight services at Thoothukudi airport, dedicated cargo terminal. Coimbatore airport expansion to international standards through PPP model.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">ரயில் இணைப்புப் பாதை திட்டம்</span><span data-lang="en">Railway Connectivity Plan</span></div>
+            <div class="policy-text"><span data-lang="ta">'தமிழ்நாடு ரயில் இணைப்புப் பாதை திட்டத்தை' தயார் செய்து, குறிப்பிட்ட கால அளவில் திட்டத்தை நடைமுறைப்படுத்தி நிறைவு செய்ய ஒன்றிய அரசை வலியுறுத்தும்.</span><span data-lang="en">A 'Tamil Nadu Railway Connectivity Plan' will be prepared and the Union government will be urged to implement it within a defined timeline.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">துறைமுகம் — கன்னியாகுமரி</span><span data-lang="en">Port — Kanyakumari</span></div>
+            <div class="policy-text"><span data-lang="ta">கன்னியாகுமரி மாவட்டத்தில் எட்டு ஆண்டுகளாகக் கிடப்பில் இருக்கும் இனயம் சந்திப்பு துறைமுகம் முழுவதுமாக செயல்பாட்டுக்கு வரவும், கடலூர் துறைமுகத்தை புது தொழில்துறை துறைமுகமாக மேம்படுத்தவும் நடவடிக்கை.</span><span data-lang="en">Full activation of the Kanyakumari junction port pending for 8 years. Cuddalore port to be developed as a new industrial port.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">பல்திறன் சேவை பரிமாற்ற பூங்கா</span><span data-lang="en">Multi-Modal Logistics Parks</span></div>
+            <div class="policy-text"><span data-lang="ta">சென்னை துறைமுகம்-ரயில் சுற்று வட்டார பகுதி, மேற்கில் கோவை தொழில்சாலை வட்டார, தெற்கில் தூத்துக்குடியில் என மூன்று இடங்களில் பல்திறன் சேவை பரிமாற்றப் பூங்கா நிறுவப்படும்.</span><span data-lang="en">Multi-modal logistics parks in Chennai port area, Coimbatore industrial zone, and Thoothukudi.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">6</div>
+            <div class="policy-title"><span data-lang="ta">தொழில்நுட்பத்துடன் கூடிய சாலைகள் & விபத்தில்லா போக்குவரத்து</span><span data-lang="en">Technology-Enabled Roads & Accident-Free Transport</span></div>
+            <div class="policy-text"><span data-lang="ta">நெடுஞ்சாலைகளில் AI தொழில்நுட்பக் கண்காணிப்பு கேமராக்கள். விபத்தில் பாதிக்கப்பட்டவர்களுக்கு 'Good Samaritan Life-Saver Award'. சேதமற்ற நெடுஞ்சாலைகளுக்கு ஆண்டுக்கு ரூ.2,000 கோடி.</span><span data-lang="en">AI surveillance cameras on highways. Good Samaritan Life-Saver Award for accident helpers. Rs. 2,000 crore annually for road maintenance.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">7</div>
+            <div class="policy-title"><span data-lang="ta">சேதமற்ற நெடுஞ்சாலைகள் — ரூ.2,000 கோடி</span><span data-lang="en">Pothole-Free Highways — Rs. 2,000 Crore</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழ்நாடு நெடுஞ்சாலைகளுக்கு ஆண்டுக்கு ரூ.2,000 கோடி செலவிடப்படும். அரசு அறிமுகப்படுத்தும் செயலியின் மூலம், சாலைகளில் குறைபாடுகள் தெரிந்தால் மக்கள் உடனுக்குடன் போட்டோவுடன் தகவல் தெரிவிக்கலாம்.</span><span data-lang="en">Rs. 2,000 crore annually for Tamil Nadu highways. Citizens can report road issues via government app with photos.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">8</div>
+            <div class="policy-title"><span data-lang="ta">நாகப்பட்டினத்திலிருந்து இலங்கை, மலேசியாவுக்கு கப்பல் போக்குவரத்து</span><span data-lang="en">Ship Service from Nagapattinam to Sri Lanka & Malaysia</span></div>
+            <div class="policy-text"><span data-lang="ta">பண்டைய தமிழர்களின் கடல்சார் பயணங்களை மீட்டுருவாக்கம் செய்யும் விதமாக நாகப்பட்டினம் துறைமுகத்திலிருந்து கொழும்பு மற்றும் கோலாலம்பூர் ஆகிய நகரங்களுக்கு கடல்சார் பயண போக்குவரத்தை தொடங்க த.வெ.க. அரசு மேற்கொள்ளும்.</span><span data-lang="en">TVK government will launch ship passenger services from Nagapattinam to Colombo and Kuala Lumpur, reviving ancient Tamil maritime traditions.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">C. கிராம வளர்ச்சி</span>
+        <span data-lang="en">C. Rural Development</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">அனைத்து பஞ்சாயத்துகளையும் இணைக்கும் சாலை</span><span data-lang="en">Roads Connecting All Panchayats</span></div>
+            <div class="policy-text"><span data-lang="ta">அடுத்த ஐந்தாண்டில் அனைத்து பஞ்சாயத்துகளும் நெடுஞ்சாலைகளுடன் இணைக்கப்படும்.</span><span data-lang="en">All panchayats will be connected to highways within 5 years.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">கிராமப்புற ஊரக வேலை உறுதித்திட்டம் 150 நாட்களாக உயர்த்தப்படும்</span><span data-lang="en">Rural Employment Guarantee Increased to 150 Days</span></div>
+            <div class="policy-text"><span data-lang="ta">கிராமப்புற ஊரக வேலை உறுதித்திட்டம் 150 நாட்களாக உயர்த்தி, உரிய வருவாய் நிர்ணயிக்க முயற்சி.</span><span data-lang="en">Rural employment guarantee scheme will be raised to 150 days with fair wage determination.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">மாதிரி கிராமங்கள் — 5,000 கிராமங்களுக்கு நகர்ப்புற நவீன கட்டமைப்பு</span><span data-lang="en">Model Villages — Urban Infrastructure for 5,000 Villages</span></div>
+            <div class="policy-text"><span data-lang="ta">5,000 கிராமங்களை மாதிரியாக எடுத்துக்கொண்டு, அங்கு நகர்ப்புறத்தைப் போல மேம்பட்ட அதிநவீன கட்டமைப்புகள் மேற்கொள்ளப்படும். ஒவ்வொரு ஆண்டு பொங்கலின்போதும் மாதிரி கிராமங்கள் தேர்ந்தெடுக்கப்படும். சிறந்த அளவில் செயல்படும் கிராமத்திற்கு ரூ.50 லட்சம் பரிசு.</span><span data-lang="en">5,000 villages selected as model villages with urban-like infrastructure. Best-performing village wins Rs. 50 lakh prize annually during Pongal.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">கிராமப்புறத் தொழில் உள்கட்டமைப்புத் திட்டம் — 1,000 Village Industry Clusters</span><span data-lang="en">Rural Industrial Infrastructure — 1,000 Village Industry Clusters</span></div>
+            <div class="policy-text"><span data-lang="ta">1,000 கிராமப்புறத் தொழில் தொகுப்புகளை (Village Industry Clusters) உருவாக்கும். MSME, ஸ்டார்ட்-அப்கள் சார்ந்த தொழில் வளர்ச்சி.</span><span data-lang="en">1,000 Village Industry Clusters will be created. MSME and startup-based industrial growth.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">கிராம சந்தைகள்</span><span data-lang="en">Village Markets</span></div>
+            <div class="policy-text"><span data-lang="ta">ஒவ்வொரு கிராமங்களிலும் நிரந்தர மற்றும் வாரச் சந்தைகள் நவீன கட்டமைப்புடன் மேம்படுத்தப்படும்.</span><span data-lang="en">Permanent and weekly markets in every village will be modernized.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">D. நகர வளர்ச்சி</span>
+        <span data-lang="en">D. Urban Development</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">2031-க்குள் சேரியில்லா நகரங்கள்</span><span data-lang="en">Slum-Free Cities by 2031</span></div>
+            <div class="policy-text"><span data-lang="ta">2031-க்குள் அனைவருக்கும் முறையான வீடு, வடிகால் மேலாண்மை வீடுகளுக்கு உரிய உரிமம் ஆகியவை ஒப்படைக்கப்பட்டு சேரியில்லா நகரங்கள் என்ற குறிக்கோள் நிறைவு.</span><span data-lang="en">All citizens will have proper housing with drainage management and property rights by 2031, achieving slum-free cities.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">பண்பாட்டு நகரங்கள் திட்டம் — தஞ்சாவூர், மதுரை, காஞ்சிபுரம், மகாபலிபுரம்</span><span data-lang="en">Heritage Cities — Thanjavur, Madurai, Kanchipuram, Mahabalipuram</span></div>
+            <div class="policy-text"><span data-lang="ta">தஞ்சாவூர், மதுரை, காஞ்சிபுரம், மகாபலிபுரம் ஆகிய பண்பாட்டு நகரங்களின் பெருமையை பாதுகாக்கும் மற்றும் மேம்படுத்தும் விதமாக 'தமிழ்நாடு பண்பாட்டு நகரங்கள் ஆணையம்' உருவாக்கப்படும்.</span><span data-lang="en">'Tamil Nadu Heritage Cities Commission' will be created to protect and develop heritage cities like Thanjavur, Madurai, Kanchipuram, and Mahabalipuram.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">காலநிலை-தாங்கும் தமிழ்நாடு பெருந்திட்ட வரைவு 2045</span><span data-lang="en">Climate-Resilient Tamil Nadu Master Plan 2045</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து மாவட்டங்களுக்கும் காலநிலை மாற்றத்தைச் சமாளிக்கும் யதார்த்தமான 'காலநிலை மாற்றத்தைச் சமாளிக்கும் பெருந்திட்ட வரைவு 2045' அரசு உருவாக்கும்.</span><span data-lang="en">Government will create a realistic 'Climate-Resilient Tamil Nadu Master Plan 2045' for all districts.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">வெள்ள அபாய நகரங்கள் — வெள்ளத்திலிருந்து தடுக்கப்படும்</span><span data-lang="en">Flood-Prone Cities — Flood Prevention</span></div>
+            <div class="policy-text"><span data-lang="ta">சென்னை, தூத்துக்குடி, கடலூர், நாகை மற்றும் கன்னியாகுமரி ஆகிய நகரங்களில் மேம்பட்ட மழைநீர் வடிகால்கள் நிறுவப்படும். அனைத்து மாநகராட்சிகளிலும் குறைந்தது 3% நிலப்பரப்பு சதுப்பு நிலமாக பாதுகாக்கப்படும்.</span><span data-lang="en">Enhanced stormwater drains in Chennai, Thoothukudi, Cuddalore, Nagai, and Kanyakumari. At least 3% of land in all corporations preserved as wetlands.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">உலகத்தரத்தில் சென்னை, திருச்சி, மதுரை, கோவை மாநகரங்கள்</span><span data-lang="en">World-Class Cities — Chennai, Trichy, Madurai, Coimbatore</span></div>
+            <div class="policy-text"><span data-lang="ta">சென்னை, திருச்சி, மதுரை, கோவை ஆகிய மாநகரங்கள் உலகத்தரத்தில் உருவாக்கப்படும்.</span><span data-lang="en">Chennai, Trichy, Madurai, and Coimbatore will be developed to world-class standards.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">6</div>
+            <div class="policy-title"><span data-lang="ta">பல்வேறு வகையான பார்க்கிங்</span><span data-lang="en">Multi-Level Parking</span></div>
+            <div class="policy-text"><span data-lang="ta">அரசு மற்றும் தனியார் பங்களிப்போடு மாநகரங்களில் பல்வேறு வகையான நவீன பார்க்கிங் வசதிகள் கொண்டுவரப்படும்.</span><span data-lang="en">Modern multi-level parking facilities through public-private partnership in major cities.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">7</div>
+            <div class="policy-title"><span data-lang="ta">மக்களுக்கான நவீன தெருக்கள்</span><span data-lang="en">Modern Streets for People</span></div>
+            <div class="policy-text"><span data-lang="ta">25 மாநகராட்சிகளிலும் சாலைகளோடு நேரடியாக இணைந்த தெருக்கள், உரிய நடைபாதை, மிதிவண்டி செல்வதற்கான தனி வழி, குறுக்குத் தெருக்கள் சரியான இணைப்பு, எல்.ஈ.டி நவீன தெருவிளக்கு ஆகியவற்றோடு மக்களுக்கான நவீன தெருக்களாக உருவாக்கப்படும்.</span><span data-lang="en">Modern streets with proper sidewalks, bicycle lanes, intersection improvements, and LED street lighting in all 25 corporations.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">8</div>
+            <div class="policy-title"><span data-lang="ta">பொதுக் கழிப்பறை உள்கட்டமைப்புத் திட்டம்</span><span data-lang="en">Public Toilet Infrastructure Plan</span></div>
+            <div class="policy-text"><span data-lang="ta">நகரச் சாலைகளின் இருபுறமும் தலா 1 லட்சம் கிலோமீட்டர் தூரத்தை உள்ளடக்கி, சுமார் 1.5 லட்சம் பொதுக் கழிப்பறைகளை தமிழக வெற்றிக் கழக அரசு கட்டும்.</span><span data-lang="en">TVK government will build approximately 1.5 lakh public toilets covering 1 lakh km of city roads on both sides.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">9</div>
+            <div class="policy-title"><span data-lang="ta">சொத்து வரி குறைப்பு</span><span data-lang="en">Property Tax Reduction</span></div>
+            <div class="policy-text"><span data-lang="ta">திமுக அரசால் விதிக்கப்பட்ட கடுமையான சொத்து வரி உயர்வை குறைக்கும் வகையில், புதிய மற்றும் நியாயமான சொத்து வரி கட்டமைப்பை தமிழக வெற்றிக் கழக அரசு அறிமுகப்படுத்தும்.</span><span data-lang="en">TVK government will introduce a new and fair property tax structure to reduce the heavy property tax hike imposed by the DMK government.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- CHAPTER 10: GOVERNANCE -->
+<section class="chapter-section fade-in" id="ch10">
+    <div class="chapter-header">
+        <div class="chapter-num inbam">10</div>
+        <h2 class="chapter-title">
+            <span data-lang="ta">மக்கள் அரசு — உண்மை மற்றும் நேர்மையான நிர்வாகம்</span>
+            <span data-lang="en">People's Government — Honest & Transparent Governance</span>
+        </h2>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">A. 21-ம் நூற்றாண்டிற்கான அரசு</span>
+        <span data-lang="en">A. Government for the 21st Century</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">No-Application அரசு — நேரடியாக மக்கள் நலத்திட்டங்கள்</span><span data-lang="en">No-Application Government — Direct Welfare Delivery</span></div>
+            <div class="policy-text"><span data-lang="ta">இந்தியாவிலேயே முதன்முதலாக எந்தவித ஆவணங்களையும் வலுக்கட்டாயமாக மக்களிடம் நிரப்பிக்காமல் (No-Application) மக்களுக்கு நேரடியாக மக்கள் நலத்திட்டங்களைக் கொண்டுசெல்லும் அரசாக நமது அரசு இருக்கும்.</span><span data-lang="en">India's first No-Application government — welfare schemes delivered directly to people without requiring them to fill any applications.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">சேவை உரிமைச் சட்டம் — 500 அரசு சேவைகள் கால வரையறையுடன்</span><span data-lang="en">Right to Service Act — 500 Services with Time Limits</span></div>
+            <div class="policy-text"><span data-lang="ta">பிறப்புச் சான்றிதழ், நிலத்திற்கான பட்டா, சாதிச் சான்றிதழ் போன்ற 500 அரசு சேவைகளின் பலனை குறித்த நேரத்தில் மக்கள் பெறுவதற்கு அரசு பொறுப்பேற்ற நூறு நாட்களுக்குள் சேவை உரிமைச் சட்டம் இயற்றப்படும்.</span><span data-lang="en">Right to Service Act for 500 government services within 100 days of taking office. Birth certificate, land patta, caste certificate etc. with defined timelines.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">வெற்றித் தமிழ்நாடு சூப்பர் செயலி — உங்கள் மொபைலில் அரசு</span><span data-lang="en">Vetri Tamil Nadu Super App — Government on Your Mobile</span></div>
+            <div class="policy-text"><span data-lang="ta">அரசு சேவையை பெற மக்கள் அரசு அலுவலகங்களில் அலைவதைத் தடுக்கும் விதமாக, 'வெற்றித் தமிழ்நாடு சூப்பர் செயலி' மூலம் பிறப்புச் சான்றிதழ், குடும்ப அட்டை, ஓட்டுநர் உரிமம் புதுப்பிப்பு ஆகியவை அடங்கிய 500 சேவைகளை ஒவ்வொருவரும் தங்கள் மொபைலிலிருந்தே பெறலாம்.</span><span data-lang="en">'Vetri Tamil Nadu Super App' enabling 500 government services including birth certificate, ration card, driving license renewal from your mobile.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">உரிமை அட்டைகள் மூலம் புறக்கணிப்பு இல்லாத சேவை</span><span data-lang="en">Entitlement Cards — No-Exclusion Service Delivery</span></div>
+            <div class="policy-text"><span data-lang="ta">ஆதார் அட்டையைப் போல ஒவ்வொரு குடும்பத்திற்கும் ஒரு உரிமை அட்டை வழங்கப்படும். இதன்மூலம், தகுதிவாய்ந்த குடும்பங்கள் அனைத்தும் தங்கள் சேவைகளை எளிமையாகப் பெறமுடியும்.</span><span data-lang="en">Entitlement cards (like Aadhaar) for every family ensuring no one is excluded from government services.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ்நாடு அலுவல் கண்காணிப்புத் தளம் — Real Time Governance Dashboard</span><span data-lang="en">Tamil Nadu Governance Monitoring Dashboard</span></div>
+            <div class="policy-text"><span data-lang="ta">த.வெ.க. அரசு 'தமிழ்நாடு அலுவல் கண்காணிப்புத் தளம்' (Real Time Governance Dashboard) என்ற இணையத் தகவல் அமைப்பை உருவாக்கும்.</span><span data-lang="en">TVK government will create a Real Time Governance Dashboard for transparency in all government operations.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">B. குடிமக்களே அரசின் வழிகாட்டிகள்</span>
+        <span data-lang="en">B. Citizens as Government's Guide</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">மக்கள் அரங்கம் — நேரடி புகார்கள் ஒரு முழுநாள் சட்டமன்றத்தில்</span><span data-lang="en">People's Forum — Full-Day Assembly for Direct Public Grievances</span></div>
+            <div class="policy-text"><span data-lang="ta">மக்கள் தங்கள் கோரிக்கைகளை 'மக்கள் அரங்கம்' என்ற டிஜிட்டல் தளம் மூலம் நேரடியாக தெரிவிக்கலாம். 10,000 பேர் ஒன்றுசேர்ந்து கையொப்பமிட்டுப் பதிவேற்றும் கோரிக்கைகளை அரசு பரிசீலனைக்கு எடுத்துக்கொள்ளும்.</span><span data-lang="en">Digital 'People's Forum' platform for direct public grievances. Petitions with 10,000+ signatures will be taken up for government review.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">வெற்றித் தமிழ்நாடு தளம்</span><span data-lang="en">Vetri Tamil Nadu Platform</span></div>
+            <div class="policy-text"><span data-lang="ta">'வெற்றித் தமிழ்நாடு தளம்' மூலம் மக்கள் அனைவரும் அரசுக்கு தங்கள் ஜீடியாக்களை சொல்லலாம், அரசுத் திட்டங்கள் மீதான ஏற்பு அல்லது மறுப்பைத் தெரிவிப்பது, அரசு சேவைகளை மதிப்பிடுவது ஆகியவற்றை செய்யமுடியும்.</span><span data-lang="en">'Vetri Tamil Nadu Platform' for citizens to share ideas, approve/disapprove government plans, and rate government services.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">மக்கள் தேர்ந்தெடுக்கும் உரிமை — 10% நிதி மக்கள் விரும்பும் திட்டங்களுக்கு</span><span data-lang="en">People's Right to Choose — 10% Budget for People's Projects</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து மாவட்டங்களிலும் வளர்ச்சித் திட்டங்களுக்கு ஒதுக்கப்படும் 10% நிதியை எந்தெந்த திட்டங்களுக்கு ஒதுக்க வேண்டும் என்பதை மக்கள் முடிவு செய்வார்கள் — 'பங்களிப்பு பட்ஜெட்' திட்டம்.</span><span data-lang="en">10% of development funds in all districts will be allocated based on people's choice — 'Participatory Budget' programme.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">C. லஞ்சத்திற்கு எதிராக</span>
+        <span data-lang="en">C. Anti-Corruption</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">லஞ்சத்திற்கு எதிராக மக்களுக்கான உதவி எண்</span><span data-lang="en">Anti-Corruption Helpline for Public</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து அரசு அலுவலக மையப்பகுதியிலும் புகார் எண் ஓட்டப்பட்டிருக்கும். லஞ்சம் கேட்கும் அதிகாரிகளின் போக்கை பதிவுகொண்டு, முதல்வர் அலுவலகத்தோடு தொடர்பில் உள்ள அந்த எண்ணுக்கு மக்கள் புகார் அனுப்பினால், புகார் அளிக்கும் மக்களுக்கு உரிய அங்கீகாரம் அளிக்கப்படும். State Whistleblower Protection Act மூலம் புகார் அளிப்பவர் பாதுகாக்கப்படுவார்.</span><span data-lang="en">Anti-corruption helpline in all government offices connected to CM's office. Whistleblower protection through State Whistleblower Protection Act.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">லோக்ஆயுக்தாவை வலுப்படுத்துதல்</span><span data-lang="en">Strengthening Lokayukta</span></div>
+            <div class="policy-text"><span data-lang="ta">வெளிப்படையான நியமன முறை மற்றும் தவறு செய்யும் அதிகாரிகள், தேர்ந்தெடுக்கப்பட்ட மக்கள் பிரதிநிதிகள் மீது வழக்குத் தொடரும் அதிகாரத்தை வழங்குவதன் மூலம் லோக்ஆயுக்தா வலுப்படுத்தப்படும்.</span><span data-lang="en">Lokayukta will be strengthened with transparent appointment process and power to prosecute erring officials and elected representatives.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">தமிழக லஞ்ச ஒழிப்பு கண்காணிப்பு பிரிவு</span><span data-lang="en">Tamil Nadu Anti-Corruption Monitoring Division</span></div>
+            <div class="policy-text"><span data-lang="ta">லஞ்சம் நடைபெறும் முன் தடுக்கப்படும். AI தொழில்நுட்ப உதவியுடன் செயல்படும் லஞ்ச கண்காணிப்பு பிரிவு.</span><span data-lang="en">Corruption will be prevented before it occurs through an AI-powered anti-corruption monitoring division.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">மணல் கொள்ளை ஒழிப்பு</span><span data-lang="en">Sand Mining Regulation</span></div>
+            <div class="policy-text"><span data-lang="ta">கனிமவளம் மற்றும் மணல் எடுக்கும் முறை வெளிப்படையான ஏலம் மூலம், நியாயமான முறையில் சட்டப்படி மட்டுமே அனுமதிக்கப்படும்.</span><span data-lang="en">Sand and mineral extraction only through transparent auctions and legal methods.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">D. சட்டம்-ஒழுங்கு மற்றும் நீதி</span>
+        <span data-lang="en">D. Law & Order and Justice</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">போதைப்பொருள் இல்லாத தமிழ்நாடு</span><span data-lang="en">Drug-Free Tamil Nadu</span></div>
+            <div class="policy-text"><span data-lang="ta">முதலமைச்சரின் நேரடி கண்காணிப்பில் போதைப்பொருள் தடுப்பு படை உருவாக்கப்படும். போதைப் பொருள் பயன்பாடு அறவே நீக்கப்படும். ஒவ்வொரு பள்ளியிலும் போதை எதிர்ப்பு மன்றம் அமைக்கப்படும். TASMAC கடைகளை அருகாமையில் அனைத்துள்ள தாஸ்மாக் கடைகள் உடனடியாக மூடப்படும் அல்லது இடமாற்றம் செய்யப்படும்.</span><span data-lang="en">Anti-drug task force under CM's direct supervision. Anti-drug clubs in every school. TASMAC shops near temples, schools will be immediately closed or relocated.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">ஆரோக்கியமான போதையில்லா தமிழ்நாடு</span><span data-lang="en">Healthy & Addiction-Free Tamil Nadu</span></div>
+            <div class="policy-text"><span data-lang="ta">மது கிடைப்பதை கட்டுப்படுத்தப்பட்ட முறையில் குறைத்தல், வலுவான போதை மீட்புத் திட்டங்கள் மற்றும் மகளிர் குழுக்களின் தலைமையிலான விழிப்புணர்வு மூலம் மது மற்றும் நிதிச் சுமைகளை குறைக்க நடவடிக்கை. சட்டவிரோத மதுபான விற்பனையை முழுமையாக ஒழிக்க நடவடிக்கை.</span><span data-lang="en">Controlled reduction of alcohol availability, strong de-addiction programmes, awareness through women's groups. Elimination of illegal liquor sales.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">காவல் படுகொலையில் கொல்லப்பட்டவர்களுக்கு நீதி</span><span data-lang="en">Justice for Custodial Death Victims</span></div>
+            <div class="policy-text"><span data-lang="ta">காவல் மரணங்களால் பாதிக்கப்பட்ட குடும்பத்திற்கு நீதியை பெற்றுத் தர – சுதந்திர விசாரணை. இத்தகைய கொலையை கொடும் வன்முறையில் ஈடுபடுவர் மீதும் அனைவர் மீதும் எந்தவித பாரபட்சமும் இன்றிக் கடும் நடவடிக்கை.</span><span data-lang="en">Independent inquiry for custodial death victims' families. Strict action without bias against those involved in such violence.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">நீதித்துறை உட்கட்டமைப்பு மேம்பாடு & வழக்குகள் நிலுவை குறைப்பு</span><span data-lang="en">Judiciary Infrastructure & Reducing Pending Cases</span></div>
+            <div class="policy-text"><span data-lang="ta">நீதிமன்றங்களின் நிலையில் உள்ள வழக்குகளின் எண்ணிக்கையை குறைப்பதற்கும், பொதுமக்களுக்கு நீதியை எளிதாக அணுகக்கூடியதாக மாற்றுவதற்கும், புதிய உள்ளூர் நீதிமன்றங்கள் நிறுவப்படும்.</span><span data-lang="en">New local courts to reduce pending cases and make justice more accessible to people.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">சட்டவிரோத மதுபான விற்பனைக்கு பூஜ்ய சகிப்புத்தன்மை</span><span data-lang="en">Zero Tolerance for Illegal Liquor Sales</span></div>
+            <div class="policy-text"><span data-lang="ta">போலி, சட்டவிரோத மற்றும் கருப்புச் சந்தை மதுபானங்களின் உற்பத்தி மற்றும் விற்பனையை முழுமையாக ஒழிக்க கடுமையான குற்றமான சட்ட நடவடிக்கைகள்.</span><span data-lang="en">Strict criminal action to completely eliminate production and sale of counterfeit and illegal liquor.</span></div>
+        </div>
+    </div>
+
+    <h3 class="sub-section-title">
+        <span data-lang="ta">E-F. நிதிநிலை & பொருளாதார இறையாண்மை</span>
+        <span data-lang="en">E-F. Fiscal Status & Economic Sovereignty</span>
+    </h3>
+    <div class="policy-grid">
+        <div class="policy-card">
+            <div class="policy-num inbam">1</div>
+            <div class="policy-title"><span data-lang="ta">ஐந்து சிறப்புத் திட்ட நிதிநிலை அறிக்கைகள்</span><span data-lang="en">Five Special Status Reports</span></div>
+            <div class="policy-text"><span data-lang="ta">சமூகநீதி நிதிநிலை, சமானவட்டார வளர்ச்சி நிதிநிலை, கலாசார மற்றும் பண்பாட்டு நிதிநிலை, கல்வி மற்றும் மருத்துவம் சமவாய்ப்பு நிதிநிலை, சூழலியல் நிதிநிலை ஆகிய ஐந்து சிறப்பு நிதிநிலை அறிக்கைகள்.</span><span data-lang="en">Five special status reports on social justice, equal regional development, cultural heritage, education-health equity, and environmental sustainability.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">2</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ்நாடு விழுக முதலீட்டு ஆணையம் (TNSIA) — ரூ.50,000 கோடி</span><span data-lang="en">Tamil Nadu Strategic Investment Authority (TNSIA) — Rs. 50,000 Crore</span></div>
+            <div class="policy-text"><span data-lang="ta">வரி மற்றும் மானியங்களை மட்டுமே நம்பியிருக்கும் முறையிலிருந்து வெளிவந்து, செல்வத்தை உருவாக்கும் ஒரு புதிய பொருளாதார மாதிரியை நோக்கி தமிழகத்தை தமிழக வெற்றிக் கழக அரசு கொண்டு செல்லும். ரூ.50,000 கோடி மதிப்பீட்டில் ஒரு தீர்க்க முதலீட்டு ஆணையத்தை (Strategic Investment Authority) நிறுவுகிறது.</span><span data-lang="en">TVK government will establish a Rs. 50,000 crore Strategic Investment Authority moving beyond tax-and-subsidy dependency to a wealth-creating economic model.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">3</div>
+            <div class="policy-title"><span data-lang="ta">மாநில நிதி நிலை மற்றும் கடன் மேலாண்மை குறித்த வெள்ளை அறிக்கை</span><span data-lang="en">White Paper on State Finances & Debt Management</span></div>
+            <div class="policy-text"><span data-lang="ta">தமிழகத்தின் நிதி நிலைமை, கடன் அளவுகள், கடன் வாங்கும் முறைகள், வருவாய் பயன்பாடு மற்றும் துறவிப்பட்ட பொருளாதார வாய்ப்புகள் ஆகியவற்றை உள்ளடக்கிய ஒரு விரிவான வெள்ளை அறிக்கையை (White Paper) தமிழக வெற்றிக் கழக அரசு வெளியிடும்.</span><span data-lang="en">TVK government will release a comprehensive White Paper on Tamil Nadu's finances, debt levels, borrowing patterns, and economic opportunities.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">4</div>
+            <div class="policy-title"><span data-lang="ta">பொதுத்துறை நிறுவனங்கள் (PSUs) மீட்புத் திட்டம்</span><span data-lang="en">Public Sector Units (PSUs) Revival Plan</span></div>
+            <div class="policy-text"><span data-lang="ta">அனைத்து பொதுத்துறை நிறுவனங்களிலும் தமிழக வெற்றிக் கழக அரசு கட்டமைப்பு சீர்திருத்தங்களை நடைமுறைப்படுத்தும். Professional Management Practices அறிமுகம்.</span><span data-lang="en">TVK government will implement structural reforms in all PSUs with Professional Management Practices.</span></div>
+        </div>
+        <div class="policy-card">
+            <div class="policy-num inbam">5</div>
+            <div class="policy-title"><span data-lang="ta">தமிழ்நாட்டை பொருளாதார இறையாண்மை பெற்ற மாநிலமாக மாற்றுவோம்</span><span data-lang="en">Tamil Nadu's Economic Sovereignty</span></div>
+            <div class="policy-text"><span data-lang="ta">2026-27 ஆம் நிதியாண்டில் தமிழ்நாட்டின் கடன் ரூ.10.71 லட்சம் கோடியைத் தாண்டுகிறது. தமிழக மக்கள் மீது புதிய வரிகளை சுமத்தாமல், இழப்புகளை தடுத்து, வருவாயை பெருக்கி, புதிய வழியில் பொருளாதார கட்டமைப்புகளை உருவாக்குவோம்.</span><span data-lang="en">Tamil Nadu's debt exceeds Rs. 10.71 lakh crore in 2026-27. We will grow revenue without new taxes, prevent losses, and build new economic infrastructure.</span></div>
+        </div>
+    </div>
+</section>
+
+<div class="section-sep"></div>
+
+<!-- APPEAL SECTION -->
+<section class="appeal-section fade-in">
+    <div class="appeal-content">
+        <div class="appeal-quote">
+            <span data-lang="ta">நாம் உருவாக்கும் தமிழ்நாடு வெற்றித் தமிழ்நாடு.<br><br>
+            நமது வெற்றித் தமிழ்நாடு என்பது... இளைஞர் ஒவ்வொருவருக்கும் வேலைவாய்ப்பு மற்றும் தகுதியின் அடிப்படையில் கட்டமைக்கப்பட்ட எதிர்காலம் கிடைக்கும் மாநிலம்.<br><br>
+            பெண் ஒவ்வொருவரும் பாதுகாப்பாகவும், பொருளாதார ரீதியாக சுதந்திரமாகவும், மரியாதையுடனும் இருக்கும் மாநிலம்.<br><br>
+            போதைப்பொருள் இல்லாத, ஊழல் இல்லாத மற்றும் வறுமை இல்லாத இடம்.<br><br>
+            அனைவரும் சமமாக இருக்கும் இடம்.</span>
+            <span data-lang="en">The Tamil Nadu we create will be a Victorious Tamil Nadu.<br><br>
+            Our Victorious Tamil Nadu means... a state where every youth gets opportunity and a future built on merit.<br><br>
+            Where every woman is safe, financially independent, and respected.<br><br>
+            A place free of drugs, corruption, and poverty.<br><br>
+            A place where everyone is equal.</span>
+        </div>
+        <div class="appeal-author">
+            <span data-lang="ta">— தமிழக வெற்றிக் கழகம்</span>
+            <span data-lang="en">— Tamilaga Vettri Kazhagam</span>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-logo">
+        <span data-lang="ta">தமிழக வெற்றிக் கழகம்</span>
+        <span data-lang="en">Tamilaga Vettri Kazhagam</span>
+    </div>
+    <div class="footer-tagline">
+        <span data-lang="ta">பிறப்பொக்கும் எல்லா உயிர்க்கும்!</span>
+        <span data-lang="en">All Lives Are Born Equal!</span>
+    </div>
+    <div class="footer-text">
+        <span data-lang="ta">ஏப்ரல் 23 அன்று, விசிலு-க்கு நேராக இருக்கும் பொத்தானை அழுத்தவும்.</span>
+        <span data-lang="en">On April 23, press the button next to the whistle symbol.</span>
+    </div>
+    <div class="footer-cta">
+        <div class="footer-cta-text">
+            <span data-lang="ta">வெற்றி நிச்சயம்!</span>
+            <span data-lang="en">Victory is Certain!</span>
+        </div>
+    </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+    function setLang(lang) {
+        document.body.classList.toggle('en', lang === 'en');
+        document.getElementById('btnTamil').classList.toggle('active', lang === 'ta');
+        document.getElementById('btnEnglish').classList.toggle('active', lang === 'en');
+        document.documentElement.lang = lang;
+        localStorage.setItem('tvk-lang', lang);
+    }
+
+    function toggleMenu() {
+        document.getElementById('navLinks').classList.toggle('open');
+    }
+
+    const savedLang = localStorage.getItem('tvk-lang');
+    if (savedLang) setLang(savedLang);
+
+    window.addEventListener('scroll', () => {
+        const navbar = document.getElementById('navbar');
+        const backToTop = document.getElementById('backToTop');
+        if (window.scrollY > 100) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+        if (window.scrollY > 500) {
+            backToTop.classList.add('visible');
+        } else {
+            backToTop.classList.remove('visible');
+        }
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

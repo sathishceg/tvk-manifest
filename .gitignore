@@ -1,0 +1,4 @@
+*.pdf
+ocr_temp/
+manifesto_text.txt
+.DS_Store
